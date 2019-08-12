@@ -1,0 +1,38 @@
+.col{
+  flex: 50%;
+}
+
+.row{
+  display: flex;
+}
+
+
+#champions{
+  border-bottom-width: 1px;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+}
+
+.col img{
+  width: 364px;
+  display: block;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+
+h3{
+  text-align: center;
+  color: white;
+}
+
+.col iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

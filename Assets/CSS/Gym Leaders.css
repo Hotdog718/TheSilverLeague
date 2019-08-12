@@ -1,0 +1,31 @@
+.gym-leader-row{
+  display: flex;
+}
+
+.gym-leader-col{
+  flex: 50%;
+}
+
+.title{
+  text-align: center;
+  font-size: 18px;
+}
+
+.gym-banner{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 360px;
+}
+
+.gym-type{
+  font-size: 18px;
+}
+
+.gym-rank{
+  font-size: 18px;
+}
+
+.gym-rules{
+  font-size: 18px;
+}

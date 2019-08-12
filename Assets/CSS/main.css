@@ -1,0 +1,98 @@
+::-webkit-scrollbar{
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background: #111111;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #222222;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #555555;
+}
+
+.content{
+  margin-top: 25px;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu a{
+  display: block;
+  padding: 12px;
+}
+
+.menu a:hover{
+  background-color: #222222;
+}
+
+.menu{
+  width: 250px;
+  position: fixed;
+  bottom: 50px;
+  right: 25px;
+  background-color: #111111;
+}
+
+#button{
+  border: none;
+  background-color: #111111;
+  color: #CCCCCC;
+  position: fixed;
+  bottom: 0;
+  width: 250px;
+  height: 50px;
+  font-size: 24px;
+  right: 25px;
+}
+
+#button:hover{
+  background-color: #222222;
+  color: #FFFFFF;
+}
+
+body{
+  background-color: black;
+  color: #CCCCCC;
+  font-family: "Times New Roman";
+  font-size: 16px;
+}
+
+p{
+  color: #CCCCCC;
+}
+
+a{
+  text-decoration: none;
+  color: #CCCCCC;
+}
+
+a:hover{
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.section{
+  margin-top: 35px;
+}
+
+.content{
+  display: block;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
