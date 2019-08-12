@@ -46,7 +46,7 @@ var ginuneWarParticipants = [
   },
   {
     name: "Kazeryu",
-    sprite: "Assets/Images/Sprites/kazeryu.png",
+    sprite: "Assets/Images/Sprites/Kazeryu.png",
     banner: "Assets/Images/Flags/Flag - Diogo.png",
     user: "Diogo"
   },
