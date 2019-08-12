@@ -1,5 +1,7 @@
 #coc-toggle{
   text-align: center;
+  margin-top: -11px;
+  font-size: 11px;
 }
 
 #coc-toggle:hover{
@@ -15,6 +17,14 @@ h2{
   display: inline;
 }
 
-.motw{
+.motw p{
   font-size: 10px;
+}
+
+p{
+  font-size: 14px;
+}
+
+li{
+  font-size: 14px;
 }
