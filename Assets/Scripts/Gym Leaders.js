@@ -1,3 +1,8 @@
+/*$('.banner').click(function(){
+  $('.gym-leaders').empty();
+  console.log('Clear')
+})*/
+
 var gymInfo = [
   {
     type: "Bug",
@@ -118,51 +123,4 @@ $(document).ready(function(){
       +'<div style="display: flex;"><div style="flex:20%;"><strong class="gym-type"><b><i>Type:</i></b></strong><br><img class="type" src="Assets/Images/Type Icons/' + gymInfo[gym].type + '.png"><br><strong class="gym-rank"><b><i>Rank:</i></b></strong><br><img class="rank" src="Assets/Images/Rankings/' + gymInfo[gym].rank + '.png"></div><div style="flex: 80%;"><strong class="gym-rules"><u><b>Gym Rules:</b></u></strong><p class="rules">' + gymInfo[gym].rules + '</p></div></div></div>')
     }
   }
-  /*for(i = 0; i<gymInfo.length; i++){
-    $('.gym-banner')[i].src = "Assets/Images/Gym Banners/" + gymInfo[i].type + ".png";
-    $('.title')[i].innerHTML = "<strong><b><i>~"+gymInfo[i].title+"~</i></b><strong>";
-    $('.type')[i].src = "Assets/Images/Type Icons/" + gymInfo[i].type + ".png";
-    $('.type')[i].width = 52;
-    $('.type')[i].height = 20;
-    $('.rank')[i].src = "Assets/Images/Rankings/" + gymInfo[i].rank + ".png";
-    $('.rank')[i].width = 54;
-    $('.rank')[i].height = 54;
-    $('.rules')[i].innerHTML = gymInfo[i].rules;
-  }*/
 })
-
-
-/*<div class="gym-leader-row">
-  <div class="gym-leader-col">
-    <img class="gym-banner" src="" alt="">
-    <p class="title"></p>
-    <div style="display: flex">
-      <div style="flex: 20%">
-        <strong class="gym-type"><b><i>Type:</i></b></strong><br>
-        <img class="type" src="" alt=""><br>
-        <strong class="gym-rank"><b><i>Rank:</i></b></strong><br>
-        <img class="rank" src="" alt="">
-      </div>
-      <div style="flex: 80%">
-        <strong class="gym-rules"><u><b>Gym Rules:</b></u></strong>
-        <p class="rules"></p>
-      </div>
-    </div>
-  </div>
-  <div class="gym-leader-col">
-    <img class="gym-banner" src="" alt="">
-    <p class="title"></p>
-    <div style="display: flex">
-      <div style="flex: 20%">
-        <strong class="gym-type"><b><i>Type:</i></b></strong><br>
-        <img class="type" src="" alt=""><br>
-        <strong class="gym-rank"><b><i>Rank:</i></b></strong><br>
-        <img class="rank" src="" alt="">
-      </div>
-      <div style="flex: 80%">
-        <strong class="gym-rules"><u><b>Gym Rules:</b></u></strong>
-        <p class="rules"></p>
-      </div>
-    </div>
-  </div>
-</div>*/
