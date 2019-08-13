@@ -1,0 +1,9 @@
+li{
+  margin: 16px 0;
+}
+
+#add-border{
+  border-bottom-style: dashed;
+  border-bottom-color: white;
+  border-bottom-width: 1px;
+}
