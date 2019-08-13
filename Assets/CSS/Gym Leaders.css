@@ -6,6 +6,13 @@
   flex: 50%;
 }
 
+.gym-leaders{
+  width: 876px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .title{
   text-align: center;
   font-size: 18px;
@@ -28,4 +35,12 @@
 
 .gym-rules{
   font-size: 18px;
+}
+
+.type{
+  width: 52px;
+}
+
+.rank{
+  width: 54px;
 }
