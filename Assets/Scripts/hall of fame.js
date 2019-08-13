@@ -86,7 +86,7 @@ var victors = [
 
 $(document).ready(function(){
   champions.forEach(function(champ){
-    $('#champions').append('<div class="row"><div class="col"><img src="Assets/Images/Hall of Fame/' + champ.name + '.png"><h1><u>' + champ.name + '</u></h1><h3><u>' + champ.revives + ' revives' + (champ.resets?', '+ champ.resets + ' Resets': '') +'</u></h3></div><div class="col">' + champ.video + '</div></div>')
+    $('#champions').append('<div class="row"><div class="col"><img src="Assets/Images/Hall of Fame/' + champ.name + '.png"><h1><u>' + champ.name + '</u></h1><h3><u>' + champ.revives + ' Revives' + (champ.resets?', '+ champ.resets + ' Resets': '') +'</u></h3></div><div class="col">' + champ.video + '</div></div>')
   })
 
   for(let i = 0; i<Math.ceil(victors.length/4); i++){
