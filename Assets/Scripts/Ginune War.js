@@ -172,21 +172,90 @@ var territoryLeaders = [
   }
 ]
 
+var gw1Videos = [
+  {
+    name: "The 1st Ginune Pokemon War - Event Trailer",
+    url: "https://www.youtube.com/embed/A-7djmRcQuw"
+  },
+  {
+    name: "The 1st Ginune Pokemon War: Day 1 - Act 1 - The Nature of Conflict",
+    url: "https://www.youtube.com/embed/gFVDsileYqI"
+  },
+  {
+    name: "The 1st Ginune Pokemon War: Day 1 - Act 2 - The Tides of Karma",
+    url: "https://www.youtube.com/embed/4KOUgQefje4"
+  },
+  {
+    name: "The 1st Ginune Pokemon War: Day 1 - Act 3 - A Ninja's Duty",
+    url: "https://www.youtube.com/embed/9rOPwTbECCA"
+  },
+  {
+    name: "The 1st Ginune Pokemon War: Day 1 - Act 4 - Risks and Resolves",
+    url: "https://www.youtube.com/embed/wgH1JKF5eVc"
+  },
+  {
+    name: "The 1st Ginune Pokemon War: Day 1 - Act 5: The Courage To Defy Chaos",
+    url: "https://www.youtube.com/embed/7Bc_08gbs84"
+  },
+  {
+    name: "The 1st Ginune Pokemon War: Day 2 - The Flames of Treachery",
+    url: "https://www.youtube.com/embed/iD-rVAOXBCI"
+  },
+  {
+    name: "The 1st Ginune Pokemon War: Day 3 Act 1 - Harbingers of Madness",
+    url: "https://www.youtube.com/embed/1xnL-NkSNek"
+  },
+  {
+    name: "The 1st Ginune Pokemon War: Day 3 Act 2 - The Mad King",
+    url: "https://www.youtube.com/embed/1x0UR38wjJU"
+  },
+  {
+    name: "The 1st Ginune Pokemon War: Day 4 - A Return to Isolation",
+    url: "https://www.youtube.com/embed/CpTuoN2Lwhc"
+  },
+  {
+    name: "The 1st Ginune Pokemon War: Day 5 - Biding Shadows",
+    url: "https://www.youtube.com/embed/PZ0o9jp-tzc"
+  },
+  {
+    name: "The 1st Ginune Pokemon War: Day 6 - The Erupting Invasion",
+    url: "https://www.youtube.com/embed/NH-Kgqy0tQ8"
+  },
+  {
+    name: "The 1st Ginune Pokemon War: Day 7 - Among the Cinders",
+    url: "https://www.youtube.com/embed/UT0QnLY9dzI"
+  },
+  {
+    name: "The 1st Ginune Pokemon War: Day 8 - The Means to be Worthy",
+    url: "https://www.youtube.com/embed/hrUY_AIo2mc"
+  },
+  {
+    name: "The 1st Ginune Pokemon War: Day 9 - Where it Rains",
+    url: "https://www.youtube.com/embed/YguYW_KZ1Y4"
+  },
+  {
+    name: "The 1st Ginune Pokemon War: Final Day Act 1 - Warlords",
+    url: "https://www.youtube.com/embed/gaLOwzShvic"
+  },
+  {
+    name: "The 1st Ginune Pokemon War: Final Day Act 2 - Legends",
+    url: "https://www.youtube.com/embed/2dWSBtXGET8"
+  },
+  {
+    name: "Silver League The Animation Special 01: Visiting a Friend (9th Anniversary Special)",
+    url: "https://www.youtube.com/embed/54iV_qXluzM"
+  }
+]
 
 
 
 $(document).ready(function(){
-    document.getElementsByClassName('banner')[0].addEventListener('mousedown',function(e){
-      $(".menu").toggle();
-    })
-
     gw2Videos.forEach(function(video) {
 		$('#videos').append('<div class="playlist-item"><figure><img width=250 height=140 src="'
             + video.thumb + '" alt="' + video.name + '"><figcaption>' + video.name.toUpperCase()
             + '</figcaption></figure></div>');
   	});
   	$('#videos .playlist-item:first-child').addClass('playing');
-
 
     $('#videos .playlist-item').click(function(){
       $('#videos .playing').removeClass('playing');
@@ -198,6 +267,23 @@ $(document).ready(function(){
       });
       var video = gw2Videos[index];
       document.getElementById("current-video").src = video.url;
+    });
+
+    gw1Videos.forEach(video => {
+      $('#gw1-videos').append('<div class="playlist-item"><p>' + video.name + '</p></div>');
+    })
+    $('#gw1-videos .playlist-item:first-child').addClass('playing');
+
+    $('#gw1-videos .playlist-item').click(function(){
+      $('#gw1-videos .playing').removeClass('playing');
+      $(this).addClass("playing");
+
+      var vidNameSearch = $(this).find('p').html();
+      var index = gw1Videos.findIndex(function(video, i){
+          return video.name === vidNameSearch;
+      });
+      var video = gw1Videos[index];
+      document.getElementById("gw1-current-video").src = video.url;
     });
 
     ginuneWarParticipants.forEach(function(g){
