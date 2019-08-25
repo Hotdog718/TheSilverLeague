@@ -1,126 +1,105 @@
-/*$('.banner').click(function(){
-  $('.gym-leaders').empty();
-  console.log('Clear')
-})*/
+$('#sort').click(function(){
+  $('#sort-list').toggle();
+})
 
-var gymInfo = [
-  {
-    type: "Bug",
-    title: "Web of Despair",
-    rank: "S",
-    rules: "-Banned Pokemon: Hawlucha<br>-Banned Mega Stone: Charizardite Y"
-  },
-  {
-    type: "Dark",
-    title: "The Pillager of Twilight",
-    rank: "SS",
-    rules: "-Item Clause: One of each item except Leftovers."
-  },
-  {
-    type: "Dragon",
-    title: "The Dragon Empress",
-    rank: "S",
-    rules: "-Banned Pokemon: Magearna<br>-Banned Mega Stone: Medichamite<br><br> Gym Leader Sub: Abel"
-  },
-  {
-    type: "Electric",
-    title: "COMING SOON",
-    rank: "S",
-    rules: "-Banned Pokemon: Excadrill<br>-Banned Mega Stone: Venusaurite<br>-Full Item Clause<br>-OU Limit: 4<br>-No Terrain Summoning Abilities"
-  },
-  {
-    type: "Fairy",
-    title: "The Sakura Blossom Anime Conisseur",
-    rank: "S",
-    rules: "-No Z-Moves<br>-Item Clause: One of each item except Leftovers<br>-Banned Pokemon: Heatran<br>-Banned Mega Stone: Scizorite"
-  },
-  {
-    type: "Fighting",
-    title: "The Blossoming Warrior",
-    rank: "S",
-    rules: "-Banned Pokemon: Tapu Lele<br>-Banned Mega Stone: Pinsirite<br><br>Gym Leader Sub: Zephyrblaze"
-  },
-  {
-    type: "Fire",
-    title: "The Weenie Roaster",
-    rank: "S",
-    rules: '-Rules are for <a href="https://www.youtube.com/watch?v=Xg8aqu9HL_o">Weenies</a>.'
-  },
-  {
-    type: "Flying",
-    title: "Wings of Rebellion",
-    rank: "S",
-    rules: "-No Terrain Summoning Abilities"
-  },
-  {
-    type: "Ghost",
-    title: "The Geist Keeper",
-    rank: "S",
-    rules: "-Banned Pokemon: Heatran<br>-Banned Mega Stone: Gyaradosite"
-  },
-  {
-    type: "Grass",
-    title: "COMING SOON",
-    rank: "S",
-    rules: "-Banned Pokemon: Volcarona<br>-Banned Mega Stone: Charizardite X"
-  },
-  {
-    type: "Ground",
-    title: "One Groundy Boi",
-    rank: "S",
-    rules: "-Banned Pokemon: Charizard<br>-Banned Mega Stone: Medichamite"
-  },
-  {
-    type: "Ice",
-    title: "The Trap Master",
-    rank: "S",
-    rules: "-Banned Pokemon: Charizard"
-  },
-  {
-    type: "Normal",
-    title: "Seeker of the Future",
-    rank: "S",
-    rules: "~Singles~<br>-OU Limit: 3<br>-No Legends<br>-Banned Pokemon: Skarmory<br>-Banned Mega Stone: Medichamite<br><br>~Doubles~<br>-Banned Pokemon: Sableye<br>-Banned Mega Stone: Lopponite"
-  },
-  {
-    type: "Poison",
-    title: "The Hand of Nihil",
-    rank: "SS",
-    rules: "-OU Limit: 4<br>-Item Clause: 1 Focus Sash/ 1 Choice Scarf<br>-Banned Pokemon: Landorus<br>-Banned Mega Stone: Mawilite"
-  },
-  {
-    type: "Psychic",
-    title: "The Voiceless Seer",
-    rank: "SS",
-    rules: "-None."
-  },
-  {
-    type: "Rock",
-    title: "The Relic Seeker",
-    rank: "S",
-    rules: "-Banned Pokemon: Magearna<br>-Banned Mega Stone: Venusaurite"
-  },
-  {
-    type: "Steel",
-    title: "COMING SOON",
-    rank: "S",
-    rules: "~Singles~<br>-Banned Pokemon: Charizard<br>-Banned Mega Stone: Medichamite<br><br>~Doubles~<br>-Banned Pokemon: Volcanion<br>-Banned Mega Stone: Cameruptite"
-  },
-  {
-    type: "Water",
-    title: "The Moist Master",
-    rank: "S",
-    rules: "-Banned Pokemon: Venusaur<br>-Banned Mega Stone: Medichamite"
-  }
-];
+var modes = ["Type A-Z","Type Z-A",'Leader A-Z','Leader Z-A'];
 
 $(document).ready(function(){
+  setGyms(modes[0]);
+  for(let i = 0; i<modes.length; i++){
+    $('#sort-list').append('<a id="mode'+i+'">' + modes[i] + '</a>')
+    $('#mode'+i).click(function(){
+      setGyms(modes[i])
+    })
+  }
+})
+
+function compareTypes(a, b) {
+  // Use toUpperCase() to ignore character casing
+  const leaderA = a.type.toUpperCase();
+  const leaderB = b.type.toUpperCase();
+
+  let comparison = 0;
+  if (leaderA > leaderB) {
+    comparison = 1;
+  }else if (leaderA < leaderB) {
+    comparison = -1;
+  }
+  return comparison;
+}
+
+function compareLeaders(a, b) {
+  // Use toUpperCase() to ignore character casing
+  const leaderA = a.leader.toUpperCase();
+  const leaderB = b.leader.toUpperCase();
+
+  let comparison = 0;
+  if (leaderA > leaderB) {
+    comparison = 1;
+  }else if (leaderA < leaderB) {
+    comparison = -1;
+  }
+  return comparison;
+}
+
+
+function setGyms(mode){
+  switch(mode){
+    case 'Type A-Z': {
+      $('.gym-leaders').empty();
+      gymInfo.sort(compareTypes);
+      sortForwards();
+      break;
+    }
+    case 'Type Z-A': {
+      $('.gym-leaders').empty();
+      gymInfo.sort(compareTypes);
+      sortBackwards()
+      break;
+    }
+
+    case 'Leader A-Z':{
+      $('.gym-leaders').empty();
+      gymInfo.sort(compareLeaders);
+      sortForwards();
+      break;
+    }
+
+    case 'Leader Z-A':{
+      $('.gym-leaders').empty();
+      gymInfo.sort(compareLeaders);
+      sortBackwards();
+      break;
+    }
+  }
+}
+
+function sortForwards(){
   for(let i = 0; i<=8; i++){
     $('.gym-leaders').append('<div style="display: flex; width: 866px;" class="gym-leader-row' + i + '"></div>');
     for(let k = 0; k<2; k++){
-      var gym = i*2 + k;
-      $('.gym-leader-row'+i).append('<div class="gym-leader-col" width="400px"><img class="gym-banner" src="Assets/Images/Gym Banners/' + gymInfo[gym].type + '.png"><p class="title"><strong><b><i>~'+gymInfo[gym].title+'~</i></b></strong></p>'
-      +'<div style="display: flex;"><div style="flex:20%;"><strong class="gym-type"><b><i>Type:</i></b></strong><br><img class="type" src="Assets/Images/Type Icons/' + gymInfo[gym].type + '.png"><br><strong class="gym-rank"><b><i>Rank:</i></b></strong><br><img class="rank" src="Assets/Images/Rankings/' + gymInfo[gym].rank + '.png"></div><div style="flex: 80%;"><strong class="gym-rules"><u><b>Gym Rules:</b></u></strong><p class="rules">' + gymInfo[gym].rules + '</p></div></div></div>')
+      var gym = gymInfo[i*2 + k];
+      var singles = gym.rules.singles;
+      var doubles = gym.rules.doubles;
+      $('.gym-leader-row'+i).append('<div class="gym-leader-col" style="width: 400px;"><img class="gym-banner" src="Assets/Images/Gym Banners/' + gym.type + '.png"><p class="title"><strong><b><i>~'+ gym.title +'~</i></b></strong></p>'
+      + '<div style="display: flex"><div  style="flex: 20%"><strong class="gym-type"><b><i>Type: </i></b></strong><br><img class="type" src="Assets/Images/Type Icons/' + gym.type + '.png"><br><strong class="gym-rank"><b><i>Rank:</i></b></strong><br><img class="rank" src="Assets/Images/Rankings/' + gym.rank + '.png"></div>'
+      + '<div style="flex: 80%"><strong class="gym-rules"><u><b>Gym Rules:</b></u></strong><div class="rules">' + (doubles ? '<p id="singles"><b>~Singles~</b><br>' : '<p id="singles">') + (singles.bZMoves ? '-No Z-Moves<br>' : '') + (singles.ouLimit ? '-OU Limit: '+singles.ouLimit+'<br>': '') + (singles.bLegends? '-No Legends<br>' : '') + (singles.itemClause ? '-Item Clause: '+singles.itemClause+'<br>': '') + (singles.bPoke ? '-Banned Pokemon: ' + singles.bPoke+'<br>': '') + (singles.bMega ? '-Banned Mega Stone: '+singles.bMega+'<br>': '') + (singles.bTerrains ? '-No Terrain Summoning Abilities<br>' : '') + (singles.extra?'-'+singles.extra:'')
+      + (doubles ? '<p id="doubles"><b>~Doubles~</b><br>' + (doubles.bZMoves? '-No Z-Moves<br>' : '') + (doubles.ouLimit ? '-OU Limit: '+doubles.ouLimit+'<br>': '') + (doubles.bLegends? '-No Legends<br>':'') + (doubles.itemClause?'-Item Clause: '+doubles.itemClause+'<br>':'') + (doubles.bPoke?'-Banned Pokemon: '+doubles.bPoke+'<br>':'') + (doubles.bMega?'-Banned Mega Stone: '+doubles.bMega+'<br>':'') + (doubles.bTerrains?'-No Terrain Summoning Abilities<br>':'') + (doubles.extra?'-'+doubles.extra:'') + '</p>' : '') + '</p>' + (gym.sub?'<p id="sub">Gym Leader Sub: ' + gym.sub + '</p>':'') + '</div></div></div></div>')
     }
   }
-})
+}
+
+function sortBackwards(){
+  for(let i = 8; i>=0; i--){
+    $('.gym-leaders').append('<div style="display: flex; width: 866px;" class="gym-leader-row' + i + '"></div>');
+    for(let k = 1; k>=0; k--){
+      var gym = gymInfo[i*2 + k];
+      var singles = gym.rules.singles;
+      var doubles = gym.rules.doubles;
+      $('.gym-leader-row'+i).append('<div class="gym-leader-col" style="width: 400px;"><img class="gym-banner" src="Assets/Images/Gym Banners/' + gym.type + '.png"><p class="title"><strong><b><i>~'+ gym.title +'~</i></b></strong></p>'
+      + '<div style="display: flex"><div  style="flex: 20%"><strong class="gym-type"><b><i>Type: </i></b></strong><br><img class="type" src="Assets/Images/Type Icons/' + gym.type + '.png"><br><strong class="gym-rank"><b><i>Rank:</i></b></strong><br><img class="rank" src="Assets/Images/Rankings/' + gym.rank + '.png"></div>'
+      + '<div style="flex: 80%"><strong class="gym-rules"><u><b>Gym Rules:</b></u></strong><div class="rules">' + (doubles ? '<p id="singles"><b>~Singles~</b><br>' : '<p id="singles">') + (singles.bZMoves ? '-No Z-Moves<br>' : '') + (singles.ouLimit ? '-OU Limit: '+singles.ouLimit+'<br>': '') + (singles.bLegends? '-No Legends<br>' : '') + (singles.itemClause ? '-Item Clause: '+singles.itemClause+'<br>': '') + (singles.bPoke ? '-Banned Pokemon: ' + singles.bPoke+'<br>': '') + (singles.bMega ? '-Banned Mega Stone: '+singles.bMega+'<br>': '') + (singles.bTerrains ? '-No Terrain Summoning Abilities<br>' : '') + (singles.extra?'-'+singles.extra:'')
+      + (doubles ? '<p id="doubles"><b>~Doubles~</b><br>' + (doubles.bZMoves? '-No Z-Moves<br>' : '') + (doubles.ouLimit ? '-OU Limit: '+doubles.ouLimit+'<br>': '') + (doubles.bLegends? '-No Legends<br>':'') + (doubles.itemClause?'-Item Clause: '+doubles.itemClause+'<br>':'') + (doubles.bPoke?'-Banned Pokemon: '+doubles.bPoke+'<br>':'') + (doubles.bMega?'-Banned Mega Stone: '+doubles.bMega+'<br>':'') + (doubles.bTerrains?'-No Terrain Summoning Abilities<br>':'') + (doubles.extra?'-'+doubles.extra:'') + '</p>' : '') + '</p>' + (gym.sub?'<p id="sub">Gym Leader Sub: ' + gym.sub + '</p>':'') + '</div></div></div></div>')
+    }
+  }
+}
