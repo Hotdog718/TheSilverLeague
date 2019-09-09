@@ -69,6 +69,7 @@ function getMoves(moves){
 function setMOTW(year){
   $('#archives').empty();
   var arc = motw[year];
+  $('#archives').append('<div style="margin-bottom: -24px;"><h1 style="text-align: center; font-size: 72px;"><u>' + year + ' Archives</u></h1></div>');
   for(let i = 0; i<Math.ceil(arc.length/2); i++){
     $('#archives').append('<div style="display: flex; font-size: 12px;" id="motw-archive-row' + i + '"></div>');
     for(let k = 0; k<2; k++){
