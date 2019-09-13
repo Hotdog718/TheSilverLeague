@@ -43,8 +43,8 @@ $(document).ready(function(){
 })
 
 function setMOTW(){
-  var year = motw['2019'];
-  var mon = year[year.length-1];
+  //var year = motw['2019'];
+  var mon = movesets[movesets.length-1];
   if(mon){
     $('#MOTW').append('<div style="margin: 2px;"><p style="text-align: center; margin-top: -18px;">' + mon.date + '</p><img class="center" src="Assets/Images/Pokemon Sprites/' + mon.pokemon + '.png" alt="' + mon.pokemon + '"><p style="text-align: center; font-size: 14px;">"' + mon.title + '"</p><p style="font-size: 14px;">Pokemon: ' + mon.pokemon + '<br>Ability: ' + mon.ability + '<br>Nature: ' + mon.nature + '<br>Item: ' + mon.item + '<br>EVs: ' + mon.evs + '</p><div id="moveset"></div><div>' + getParagraph(mon.desc) + '</div><p>Written By: ' + mon.author + '</p></div>');
     for(let r = 0; r<mon.moves.length; r++){
