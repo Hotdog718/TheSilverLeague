@@ -33,23 +33,23 @@ $(document).ready(function(){
 var standings = [
   {
     name: "Mo",
-    points: 6
+    points: 7
   },
   {
     name: "Spear",
-    points: 4
+    points: 7
   },
   {
     name: "DragonArbock",
-    points: 3
-  },
-  {
-    name: "Kaitou",
     points: 4
   },
   {
+    name: "Kaitou",
+    points: 7
+  },
+  {
     name: "Dave",
-    points: 2
+    points: 6
   },
   {
     name: "Abel",
@@ -57,19 +57,19 @@ var standings = [
   },
   {
     name: "Odds",
-    points: 2
+    points: 4
   },
   {
-    name: "Blight",
+    name: "Time Kitsune",
     points: 1
   },
   {
     name: "Apex",
-    points: 1
+    points: 2
   },
   {
     name: "Entin",
-    points: 1
+    points: 4
   },
   {
     name: "Aldnoah Shadow",
@@ -77,15 +77,15 @@ var standings = [
   },
   {
     name: "Hotdog",
-    points: 1
+    points: 4
   },
   {
     name: "BenBlazing",
-    points: 0
+    points: 1
   },
   {
     name: "JKWiffle",
-    points: 1
+    points: 2
   }
 ]
 
