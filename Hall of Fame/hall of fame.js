@@ -86,7 +86,7 @@ var victors = [
 
 $(document).ready(function(){
   champions.forEach(function(champ){
-    $('#champions').append('<div class="row"><div class="col"><img src="Assets/Images/Hall of Fame/' + champ.name + '.png"><h1><u>' + champ.name + '</u></h1><h3><u>' + champ.revives + ' Revives' + (champ.resets?', '+ champ.resets + ' Resets': '') +'</u></h3></div><div class="col">' + champ.video + '</div></div>')
+    $('#champions').append('<div class="row"><div class="col"><img src="./Hall of Fame/' + champ.name + '.png"><h1><u>' + champ.name + '</u></h1><h3><u>' + champ.revives + ' Revives' + (champ.resets?', '+ champ.resets + ' Resets': '') +'</u></h3></div><div class="col">' + champ.video + '</div></div>')
   })
 
   for(let i = 0; i<Math.ceil(victors.length/4); i++){
@@ -95,7 +95,7 @@ $(document).ready(function(){
       var victorID = i*4 + k;
       if(victors[victorID]){
         var victor = victors[victorID];
-        $('#victors'+i).append('<div style="flex: 25%;"><a href="' + victor.video + '"><img style="width: 194px; display: block; margin-left: auto; margin-right: auto;" src="Assets/Images/Wall of Victors/' + victor.image + '.png"></a></div>');
+        $('#victors'+i).append('<div style="flex: 25%;"><a href="' + victor.video + '"><img style="width: 194px; display: block; margin-left: auto; margin-right: auto;" src="./Wall of Victors/' + victor.image + '.png"></a></div>');
       }else{
         $('#victors'+i).append('<div style="flex: 25%"></div>');
       }

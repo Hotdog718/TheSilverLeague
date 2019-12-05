@@ -11,8 +11,9 @@ var committeeMembers = [
   "Odds",
   "Aggron"
 ];
+
 $(document).ready(function(){
   committeeMembers.forEach(function(member){
-    $('#committee-members').append('<li>' + member + '</li>');
+    $('#committee-members').append(`<li>${member}</li>`);
   })
 })

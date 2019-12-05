@@ -18,51 +18,51 @@
 var pages = [
   {
     page: "Ambercrest Chat",
-    href: "../Ambercrest Chat/"
+    href: "./Ambercrest Chat/"
   },
   {
     page: "Gym Leaders",
-    href: "../Gym Leaders/"
+    href: "./Gym Leaders/"
   },
   {
     page: "The CLT and Elite Four",
-    href: "../CLT and Elite Four/"
+    href: "./CLT and Elite Four/"
   },
   {
     page: "Hall of Fame",
-    href: "../Hall of Fame/"
+    href: "./Hall of Fame/"
   },
   {
     page: "Battle Frontier",
-    href: "../Battle Frontier/"
+    href: "./Battle Frontier/"
   },
   {
     page: "Training Center",
-    href: "../Training Center/"
+    href: "./Training Center/"
   },
   {
     page: "Tournaments",
-    href: "../Tournaments/"
+    href: "./Tournaments/"
   },
   {
     page: "The Ginune Pokemon War",
-    href: "../Ginune War/"
+    href: "./Ginune War/"
   },
   {
     page: "Pixel Art Center",
-    href: "../Pixel Art/"
+    href: "./Pixel Art/"
   },
   {
     page: "The SL Comic Canon",
-    href: "../Comic Canon/"
+    href: "./Comic Canon/"
   },
   {
     page: "MOTW Archives",
-    href: "../MOTW/"
+    href: "./MOTW/"
   },
   {
     page: "Rules and Rankings",
-    href: "../Rules and Rankings/"
+    href: "./Rules and Rankings/"
   }
 ];
 

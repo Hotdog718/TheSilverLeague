@@ -1,22 +1,31 @@
+html{
+  --menu-color: #202225;
+  --menu-hover: #292b2f;
+  --bg-color: #2f3136;
+  --content-bg: #36393f;
+
+  --dark-text-color: #4f5454;
+  --regular-text-color: #829297;
+  --light-text-color: #b9bbbe;
+  --lighter-text-color: #d7dad9;
+}
+
 ::-webkit-scrollbar{
   width: 10px;
   height: 10px;
 }
 
 ::-webkit-scrollbar-track{
-  background: #111111;
+  background: var(--bg-color);
 }
 
 ::-webkit-scrollbar-thumb{
-  background: #222222;
+  background: var(--menu-color);
+  border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover{
-  background: #555555;
-}
-
-.content{
-  margin-top: 25px;
+  /*background: var(--content-bg);*/
 }
 
 .center{
@@ -27,6 +36,7 @@
 
 .banner{
   width: 900px;
+  margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -37,7 +47,7 @@
 }
 
 .menu a:hover{
-  background-color: #222222;
+  background-color: var(--menu-hover);
 }
 
 .menu{
@@ -47,45 +57,56 @@
   position: fixed;
   top: 50px;
   left: 0;
-  background-color: #111111;
+  background-color: var(--menu-color);
 }
 
-#button{
-  border: none;
-  background-color: #111111;
-  color: #CCCCCC;
+.top-bar{
   position: fixed;
+  height: 50px;
+  width: 100%;
   top: 0;
+  background-color: var(--menu-color);
+}
+
+.top-bar button{
+  background-color: var(--menu-color);
+  color: var(--regular-text-color);
+  border: none;
   width: 250px;
   height: 50px;
   font-size: 24px;
+}
+
+.top-bar button:hover{
+  background-color: var(--menu-hover);
+  color: var(--light-text-color);
+}
+
+#button{
+  position: fixed;
+  top: 0;
   left: 0;
 }
 
-#button:hover{
-  background-color: #222222;
-  color: #FFFFFF;
-}
-
 body{
-  background-color: black;
-  color: #CCCCCC;
+  background-color: var(--bg-color);
+  color: var(--light-text-color);
   font-family: "Times New Roman";
   font-size: 16px;
 }
 
 p{
-  color: #CCCCCC;
+  color: var(--light-text-color);
 }
 
 a{
   text-decoration: none;
-  color: #CCCCCC;
+  color: var(--light-text-color);
 }
 
 a:hover{
-  color: #FFFFFF;
-  text-decoration: underline;
+  color: var(--lighter-text-color);
+  text-decoration: none;
 }
 
 .section{
@@ -93,8 +114,10 @@ a:hover{
 }
 
 .content{
+  padding: 18px;
   display: block;
-  width: 900px;
+  background-color: var(--content-bg);
+  width: 864px;
   margin-left: auto;
   margin-right: auto;
 }

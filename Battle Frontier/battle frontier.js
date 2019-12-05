@@ -202,7 +202,7 @@ $(document).ready(function(){
     for(let k = 0; k<2; k++){
       var brain = frontierBrains[i*2+k];
       if(brain){
-        $('.frontier-brains'+i).append('<div style="flex: 50%; margin: 4px;"><h2 style="text-align: center"><u>' + brain.name + '</u></h2><img class="center" src="Assets/Images/Battle Frontier/' + brain.owner + '.png" alt="' + brain.owner + '"><p><b>Owner: ' + brain.owner + '<br>Challenge Fee: ' + brain.fee + (brain.mascot?'<br>Mascot: ' +  brain.mascot: '') + (brain.style? '<br>Style: ' + brain.style :'') +'<br>Available Difficulties: ' + brain.difficulties + '</b></p><p><b>Explaination: ' + brain.explaination + '</b></p><p><b>Prize: ' + brain.prize + '</b></p><p><b>Mini-Game Host: ' + brain.gameHost + '</b></p><p><b>Medal: ' + brain.medal + '</b></p></div>')
+        $('.frontier-brains'+i).append('<div style="flex: 50%; margin: 4px;"><h2 style="text-align: center"><u>' + brain.name + '</u></h2><img class="center" src="./Images/' + brain.owner + '.png" alt="' + brain.owner + '"><p><b>Owner: ' + brain.owner + '<br>Challenge Fee: ' + brain.fee + (brain.mascot?'<br>Mascot: ' +  brain.mascot: '') + (brain.style? '<br>Style: ' + brain.style :'') +'<br>Available Difficulties: ' + brain.difficulties + '</b></p><p><b>Explaination: ' + brain.explaination + '</b></p><p><b>Prize: ' + brain.prize + '</b></p><p><b>Mini-Game Host: ' + brain.gameHost + '</b></p><p><b>Medal: ' + brain.medal + '</b></p></div>')
       }else{
         $('.frontier-brains'+i).append('<div style="flex: 50%"></div>')
       }
