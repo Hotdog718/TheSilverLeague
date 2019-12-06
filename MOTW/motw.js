@@ -53,10 +53,13 @@ function getParagraph(arrayList){
 
 function getMoves(moves){
   let line = '<span style="font-size: 16px;">-';
+  let usedTypes = [];
   for(let i = 0; i<moves.length; i++){
-    let moveInfo = BattleMovedex[moves[i].toLowerCase().split(" ").join("")];
+    let moveInfo = BattleMovedex[moves[i].toLowerCase().split(" ").join("").split("-").join("")];
     if(!moveInfo) continue;
+    if(usedTypes.includes(moveInfo.type)) continue;
     line += '<img src="../Assets/Images/Type Icons/' + moveInfo.type + '.png">/'
+    usedTypes.push(moveInfo.type);
   }
   line = line.substring(0, line.length-1)+" ";
   for(let i = 0; i<moves.length; i++){
@@ -80,7 +83,7 @@ function setMOTW(year){
     for(let k = 0; k<2; k++){
       var mon = arc[i*2+k];
       if(mon){
-        $('#motw-archive-row'+i).append('<div style="flex: 50%; margin: 12px;"><p style="text-align: center;">' + mon.month + " " + mon.day + ", " + mon.year + '</p><img class="center" src="../Assets/Images/Pokemon Sprites/' + mon.pokemon + '.png" alt="' + mon.pokemon + '"><p style="text-align: center; font-size: 16px;">"' + mon.title + '"</p><p style="font-size: 16px;">Pokemon: ' + mon.pokemon + '<br>Ability: ' + mon.ability + '<br>Nature: ' + mon.nature + '<br>Item: ' + mon.item + '<br>EVs: ' + mon.evs + '</p><div id="moveset' + (i*2+k) + '"></div><div>' + getParagraph(mon.desc) + '</div><p>Written By: ' + mon.author + '</p></div>')
+        $('#motw-archive-row'+i).append('<div style="flex: 50%; margin: 12px;"><p style="text-align: center;">' + mon.month + " " + mon.day + ", " + mon.year + '</p><img class="center" src="../Assets/Images/Pokemon Sprites/' + mon.pokemon + (mon.shiny ? ' - (Shiny)' : '') + '.png" alt="' + mon.pokemon + '"><p style="text-align: center; font-size: 16px;">"' + mon.title + '"</p><p style="font-size: 16px;">Pokemon: ' + mon.pokemon + '<br>Ability: ' + mon.ability + '<br>Nature: ' + mon.nature + '<br>Item: ' + mon.item + '<br>EVs: ' + mon.evs + (mon.ivs ? '<br>IVs: ' + mon.ivs : '') + '</p><div id="moveset' + (i*2+k) + '"></div><div>' + getParagraph(mon.desc) + '</div><p>Written By: ' + mon.author + '</p></div>')
         for(let r = 0; r<mon.moves.length; r++){
           let move = mon.moves[r];
           if(move){
