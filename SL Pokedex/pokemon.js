@@ -3986,6 +3986,7 @@ var pokeInfo = {
       {
         sprite: "194.png",
         name: "Wooper",
+        galar: true,
         classification: "Water Fish Pokemon",
         height: 0.4,
         weight: 8.5,
@@ -4003,6 +4004,7 @@ var pokeInfo = {
       {
         sprite: "195.png",
         name: "Quagsire",
+        galar: true,
         classification: "Water Fish Pokemon",
         height: 1.4,
         weight: 75,
