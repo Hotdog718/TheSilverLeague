@@ -36,7 +36,7 @@ function setMOTW(){
   //var year = motw['2019'];
   var mon = movesets[movesets.length-1];
   if(mon){
-    $('#MOTW').append('<div style="margin: 2px;"><p style="text-align: center; margin-top: -18px;">' + mon.month + " " + mon.day + ", " + mon.year + '</p><img class="center" src="../Assets/Images/Pokemon Sprites/' + mon.pokemon + '.png" alt="' + mon.pokemon + '"><p style="text-align: center; font-size: 14px;">"' + mon.title + '"</p><p style="font-size: 14px;">Pokemon: ' + mon.pokemon + '<br>Ability: ' + mon.ability + '<br>Nature: ' + mon.nature + '<br>Item: ' + mon.item + '<br>EVs: ' + mon.evs + (mon.ivs ? '<br>IVs: ' + mon.ivs : '') + '</p><div id="moveset"></div><div>' + getParagraph(mon.desc) + '</div><p>Written By: ' + mon.author + '</p></div>');
+    $('#MOTW').append('<div style="margin: 2px;"><p style="text-align: center; margin-top: -18px;">' + mon.month + " " + mon.day + ", " + mon.year + '</p><img class="center" src="../Assets/Images/Pokemon Sprites/' + mon.pokemon + (mon.shiny ? ' - (Shiny)' : '') + '.png" alt="' + mon.pokemon + '"><p style="text-align: center; font-size: 14px;">"' + mon.title + '"</p><p style="font-size: 14px;">Pokemon: ' + mon.pokemon + '<br>Ability: ' + mon.ability + '<br>Nature: ' + mon.nature + '<br>Item: ' + mon.item + '<br>EVs: ' + mon.evs + (mon.ivs ? '<br>IVs: ' + mon.ivs : '') + (mon.level ? '<br>Level: ' + mon.level : '') + '</p><div id="moveset"></div><div>' + getParagraph(mon.desc) + '</div><p>Written By: ' + mon.author + '</p></div>');
     for(let r = 0; r<mon.moves.length; r++){
       let move = mon.moves[r];
       if(move){

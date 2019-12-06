@@ -5,6 +5,7 @@ var pokeInfo = {
         sprite: "001.png",
         name: "Bulbasaur",
         galar: true,
+        lgpe: true,
         classification: "Seed Pokemon",
         height: 0.7,
         weight: 6.9,
@@ -22,6 +23,7 @@ var pokeInfo = {
         sprite: "002.png",
         name: "Ivysaur",
         galar: true,
+        lgpe: true,
         classification: "Seed Pokemon",
         height: 1,
         weight: 13,
@@ -39,6 +41,7 @@ var pokeInfo = {
         sprite: "003.png",
         name: "Venusaur",
         galar: true,
+        lgpe: true,
         classification: "Seed Pokemon",
         height: 2,
         weight: 100,
@@ -51,6 +54,7 @@ var pokeInfo = {
       {
         sprite: "003-m.png",
         name: "Mega Venusaur",
+        lgpe: true,
         classification: "Seed Pokemon",
         height: 2.4,
         weight: 155.5,
@@ -67,6 +71,7 @@ var pokeInfo = {
         sprite: "004.png",
         name: "Charmander",
         galar: true,
+        lgpe: true,
         classification: "Lizard Pokemon",
         height: 0.6,
         weight: 8.5,
@@ -84,6 +89,7 @@ var pokeInfo = {
         sprite: "005.png",
         name: "Charmeleon",
         galar: true,
+        lgpe: true,
         classification: "Flame Pokemon",
         height: 1.1,
         weight: 19,
@@ -101,6 +107,7 @@ var pokeInfo = {
         sprite: "006.png",
         name: "Charizard",
         galar: true,
+        lgpe: true,
         classification: "Flame Pokemon",
         height: 1.7,
         weight: 90.5,
@@ -113,6 +120,7 @@ var pokeInfo = {
       {
         sprite: "006-mx.png",
         name: "Mega Charizard X",
+        lgpe: true,
         classification: "Flame Pokemon",
         height: 1.7,
         weight: 110.5,
@@ -124,6 +132,7 @@ var pokeInfo = {
       {
         sprite: "006-my.png",
         name: "Mega Charizard Y",
+        lgpe: true,
         classification: "Flame Pokemon",
         height: 1.7,
         weight: 100.5,
@@ -153,6 +162,7 @@ var pokeInfo = {
         sprite: "007.png",
         name: "Squirtle",
         galar: true,
+        lgpe: true,
         classification: "Tiny Turtle Pokemon",
         height: 0.5,
         weight: 9,
@@ -170,6 +180,7 @@ var pokeInfo = {
         sprite: "008.png",
         name: "Wartortle",
         galar: true,
+        lgpe: true,
         classification: "Turtle Pokemon",
         height: 1,
         weight: 22.5,
@@ -187,6 +198,7 @@ var pokeInfo = {
         sprite: "009.png",
         name: "Blastoise",
         galar: true,
+        lgpe: true,
         classification: "Shellfish Pokemon",
         height: 1.6,
         weight: 85.5,
@@ -199,6 +211,7 @@ var pokeInfo = {
       {
         sprite: "009-m.png",
         name: "Mega Blastoise",
+        lgpe: true,
         classification: "Shellfish Pokemon",
         height: 1.6,
         weight: 101.1,
@@ -215,6 +228,7 @@ var pokeInfo = {
         sprite: "010.png",
         name: "Caterpie",
         galar: true,
+        lgpe: true,
         classification: "Worm Pokemon",
         height: 0.3,
         weight: 2.9,
@@ -232,6 +246,7 @@ var pokeInfo = {
         sprite: "011.png",
         name: "Metapod",
         galar: true,
+        lgpe: true,
         classification: "Cocoon Pokemon",
         height: 0.7,
         weight: 9.9,
@@ -248,6 +263,7 @@ var pokeInfo = {
         sprite: "012.png",
         name: "Butterfree",
         galar: true,
+        lgpe: true,
         classification: "Butterfly Pokemon",
         height: 1.1,
         weight: 32,
@@ -261,6 +277,7 @@ var pokeInfo = {
         sprite: "012-gi.png",
         name: "G. Butterfree",
         galar: true,
+        lgpe: true,
         classification: "Butterfly Pokemon",
         height: 17,
         weight: "???",
@@ -277,6 +294,7 @@ var pokeInfo = {
       {
         sprite: "013.png",
         name: "Weedle",
+        lgpe: true,
         classification: "Hairy Pokemon",
         height: 0.3,
         weight: 3.2,
@@ -293,6 +311,7 @@ var pokeInfo = {
       {
         sprite: "014.png",
         name: "Kakuna",
+        lgpe: true,
         classification: "Cocoon Pokemon",
         height: 0.6,
         weight: 10,
@@ -308,6 +327,7 @@ var pokeInfo = {
       {
         sprite: "015.png",
         name: "Beedrill",
+        lgpe: true,
         classification: "Poison Bee Pokemon",
         height: 1,
         weight: 29.5,
@@ -320,6 +340,7 @@ var pokeInfo = {
       {
         sprite: "015-m.png",
         name: "Mega Beedrill",
+        lgpe: true,
         classification: "Poison Bee Pokemon",
         height: 1.4,
         weight: 40.5,
@@ -335,6 +356,7 @@ var pokeInfo = {
       {
         sprite: "016.png",
         name: "Pidgey",
+        lgpe: true,
         classification: "Tiny Bird Pokemon",
         height: 0.3,
         weight: 1.8,
@@ -352,6 +374,7 @@ var pokeInfo = {
       {
         sprite: "017.png",
         name: "Pidgeotto",
+        lgpe: true,
         classification: "Bird Pokemon",
         height: 1.1,
         weight: 30,
@@ -369,6 +392,7 @@ var pokeInfo = {
       {
         sprite: "018.png",
         name: "Pidgeot",
+        lgpe: true,
         classification: "Bird Pokemon",
         height: 1.5,
         weight: 39.5,
@@ -382,6 +406,7 @@ var pokeInfo = {
       {
         sprite: "018-m.png",
         name: "Mega Pidgeot",
+        lgpe: true,
         classification: "Bird Pokemon",
         height: 2.2,
         weight: 50.5,
@@ -397,6 +422,7 @@ var pokeInfo = {
       {
         sprite: "019.png",
         name: "Rattata",
+        lgpe: true,
         classification: "Mouse Pokemon",
         height: 0.3,
         weight: 3.5,
@@ -410,6 +436,7 @@ var pokeInfo = {
       {
         sprite: "019-a.png",
         name: "Alolan Rattata",
+        lgpe: true,
         classification: "Mouse Pokemon",
         height: 0.3,
         weight: 3.8,
@@ -427,6 +454,7 @@ var pokeInfo = {
       {
         sprite: "020.png",
         name: "Raticate",
+        lgpe: true,
         classification: "Mouse Pokemon",
         height: 0.7,
         weight: 18.5,
@@ -440,6 +468,7 @@ var pokeInfo = {
       {
         sprite: "020-a.png",
         name: "Alolan Raticate",
+        lgpe: true,
         classification: "Mouse Pokemon",
         height: 0.7,
         weight: 25.5,
@@ -457,6 +486,7 @@ var pokeInfo = {
       {
         sprite: "021.png",
         name: "Spearow",
+        lgpe: true,
         classification: "Tiny Bird Pokemon",
         height: 0.3,
         weight: 2,
@@ -473,6 +503,7 @@ var pokeInfo = {
       {
         sprite: "022.png",
         name: "Fearow",
+        lgpe: true,
         classification: "Beak Pokemon",
         height: 1.2,
         weight: 38,
@@ -489,6 +520,7 @@ var pokeInfo = {
       {
         sprite: "023.png",
         name: "Ekans",
+        lgpe: true,
         classification: "Snake Pokemon",
         height: 2,
         weight: 6.9,
@@ -506,6 +538,7 @@ var pokeInfo = {
       {
         sprite: "024.png",
         name: "Arbok",
+        lgpe: true,
         classification: "Cobra Pokemon",
         height: 3.5,
         weight: 65,
@@ -524,6 +557,7 @@ var pokeInfo = {
         sprite: "025.png",
         name: "Pikachu",
         galar: true,
+        lgpe: true,
         classification: "Mouse Pokemon",
         height: 0.4,
         weight: 6,
@@ -537,6 +571,7 @@ var pokeInfo = {
         sprite: "025-gi.png",
         name: "G. Pikachu",
         galar: true,
+        lgpe: true,
         classification: "Mouse Pokemon",
         height: 21,
         weight: "???",
@@ -554,6 +589,7 @@ var pokeInfo = {
         sprite: "026.png",
         name: "Raichu",
         galar: true,
+        lgpe: true,
         classification: "Mouse Pokemon",
         height: 0.8,
         weight: 30,
@@ -567,6 +603,7 @@ var pokeInfo = {
         sprite: "026-a.png",
         name: "Alolan Raichu",
         galar: true,
+        lgpe: true,
         classification: "Mouse Pokemon",
         height: 0.7,
         weight: 21,
@@ -582,6 +619,7 @@ var pokeInfo = {
       {
         sprite: "027.png",
         name: "Sandshrew",
+        lgpe: true,
         classification: "Mouse Pokemon",
         height: 0.6,
         weight: 12,
@@ -594,6 +632,7 @@ var pokeInfo = {
       {
         sprite: "027-a.png",
         name: "Alolan Sandshrew",
+        lgpe: true,
         classification: "Mouse Pokemon",
         height: 0.7,
         weight: 40,
@@ -610,6 +649,7 @@ var pokeInfo = {
       {
         sprite: "028.png",
         name: "Sandslash",
+        lgpe: true,
         classification: "Mouse Pokemon",
         height: 1,
         weight: 29.5,
@@ -622,6 +662,7 @@ var pokeInfo = {
       {
         sprite: "028-a.png",
         name: "Alolan Sandslash",
+        lgpe: true,
         classification: "Mouse Pokemon",
         height: 1.2,
         weight: 55,
@@ -638,6 +679,7 @@ var pokeInfo = {
       {
         sprite: "029.png",
         name: "Nidoran♀",
+        lgpe: true,
         classification: "Poison Pin Pokemon",
         height: 0.4,
         weight: 7,
@@ -655,6 +697,7 @@ var pokeInfo = {
       {
         sprite: "030.png",
         name: "Nidorina",
+        lgpe: true,
         classification: "Poison Pin Pokemon",
         height: 0.8,
         weight: 20,
@@ -672,6 +715,7 @@ var pokeInfo = {
       {
         sprite: "031.png",
         name: "Nidoqueen",
+        lgpe: true,
         classification: "Drill Pokemon",
         height: 1.3,
         weight: 60,
@@ -689,6 +733,7 @@ var pokeInfo = {
       {
         sprite: "032.png",
         name: "Nidoran♂",
+        lgpe: true,
         classification: "Poison Pin Pokemon",
         height: 0.5,
         weight: 9,
@@ -706,6 +751,7 @@ var pokeInfo = {
       {
         sprite: "033.png",
         name: "Nidorino",
+        lgpe: true,
         classification: "Poison Pin Pokemon",
         height: 0.9,
         weight: 19.5,
@@ -723,6 +769,7 @@ var pokeInfo = {
       {
         sprite: "034.png",
         name: "Nidoking",
+        lgpe: true,
         classification: "Drill Pokemon",
         height: 1.4,
         weight: 62,
@@ -741,6 +788,7 @@ var pokeInfo = {
         sprite: "035.png",
         name: "Clefairy",
         galar: true,
+        lgpe: true,
         classification: "Fairy Pokemon",
         height: 0.6,
         weight: 7.5,
@@ -759,6 +807,7 @@ var pokeInfo = {
         sprite: "036.png",
         name: "Clefable",
         galar: true,
+        lgpe: true,
         classification: "Fairy Pokemon",
         height: 1.3,
         weight: 40,
@@ -777,6 +826,7 @@ var pokeInfo = {
         sprite: "037.png",
         name: "Vulpix",
         galar: true,
+        lgpe: true,
         classification: "Fox Pokemon",
         height: 0.6,
         weight: 9.9,
@@ -790,6 +840,7 @@ var pokeInfo = {
         sprite: "037-a.png",
         name: "Alolan Vulpix",
         galar: true,
+        lgpe: true,
         classification: "Fox Pokemon",
         height: 0.6,
         weight: 9.9,
@@ -807,6 +858,7 @@ var pokeInfo = {
         sprite: "038.png",
         name: "Ninetales",
         galar: true,
+        lgpe: true,
         classification: "Fox Pokemon",
         height: 1.1,
         weight: 19.9,
@@ -820,6 +872,7 @@ var pokeInfo = {
         sprite: "038-a.png",
         name: "Alolan Ninetales",
         galar: true,
+        lgpe: true,
         classification: "Fox Pokemon",
         height: 1.1,
         weight: 19.9,
@@ -836,6 +889,7 @@ var pokeInfo = {
       {
         sprite: "039.png",
         name: "Jigglypuff",
+        lgpe: true,
         classification: "Balloon Pokemon",
         height: 0.5,
         weight: 5.5,
@@ -853,6 +907,7 @@ var pokeInfo = {
       {
         sprite: "040.png",
         name: "Wigglytuff",
+        lgpe: true,
         classification: "Balloon Pokemon",
         height: 1,
         weight: 12,
@@ -870,6 +925,7 @@ var pokeInfo = {
       {
         sprite: "041.png",
         name: "Zubat",
+        lgpe: true,
         classification: "Bat Pokemon",
         height: 0.8,
         weight: 7.5,
@@ -886,6 +942,7 @@ var pokeInfo = {
       {
         sprite: "042.png",
         name: "Golbat",
+        lgpe: true,
         classification: "Bat Pokemon",
         height: 1.6,
         weight: 55,
@@ -903,6 +960,7 @@ var pokeInfo = {
         sprite: "043.png",
         name: "Oddish",
         galar: true,
+        lgpe: true,
         classification: "Weed Pokemon",
         height: 0.5,
         weight: 5.4,
@@ -920,6 +978,7 @@ var pokeInfo = {
         sprite: "044.png",
         name: "Gloom",
         galar: true,
+        lgpe: true,
         classification: "Weed Pokemon",
         height: 0.8,
         weight: 8.6,
@@ -937,6 +996,7 @@ var pokeInfo = {
         sprite: "045.png",
         name: "Vileplume",
         galar: true,
+        lgpe: true,
         classification: "Flower Pokemon",
         height: 1.2,
         weight: 18.6,
@@ -953,6 +1013,7 @@ var pokeInfo = {
       {
         sprite: "046.png",
         name: "Paras",
+        lgpe: true,
         classification: "Mushroom Pokemon",
         height: 0.3,
         weight: 5.4,
@@ -970,6 +1031,7 @@ var pokeInfo = {
       {
         sprite: "047.png",
         name: "Parasect",
+        lgpe: true,
         classification: "Mushroom Pokemon",
         height: 1,
         weight: 29.5,
@@ -987,6 +1049,7 @@ var pokeInfo = {
       {
         sprite: "048.png",
         name: "Venonat",
+        lgpe: true,
         classification: "Insect Pokemon",
         height: 1,
         weight: 30,
@@ -1004,6 +1067,7 @@ var pokeInfo = {
       {
         sprite: "049.png",
         name: "Venomoth",
+        lgpe: true,
         classification: "Poison Moth Pokemon",
         height: 1.5,
         weight: 12.5,
@@ -1022,6 +1086,7 @@ var pokeInfo = {
         sprite: "050.png",
         name: "Diglett",
         galar: true,
+        lgpe: true,
         classification: "Mole Pokemon",
         height: 0.2,
         weight: 0.8,
@@ -1034,8 +1099,9 @@ var pokeInfo = {
       },
       {
         sprite: "050-a.png",
-        galar: true,
         name: "Alolan Diglett",
+        galar: true,
+        lgpe: true,
         classification: "Mole Pokemon",
         height: 0.2,
         weight: 1,
@@ -1054,6 +1120,7 @@ var pokeInfo = {
         sprite: "051.png",
         name: "Dugtrio",
         galar: true,
+        lgpe: true,
         classification: "Mole Pokemon",
         height: 0.7,
         weight: 33.3,
@@ -1068,6 +1135,7 @@ var pokeInfo = {
         sprite: "051-a.png",
         name: "Alolan Dugtrio",
         galar: true,
+        lgpe: true,
         classification: "Mole Pokemon",
         height: 0.7,
         weight: 66.6,
@@ -1086,6 +1154,7 @@ var pokeInfo = {
         sprite: "052.png",
         name: "Meowth",
         galar: true,
+        lgpe: true,
         classification: "Scratch Cat Pokemon",
         height: 0.4,
         weight: 4.2,
@@ -1100,6 +1169,7 @@ var pokeInfo = {
         sprite: "052-a.png",
         name: "Alolan Meowth",
         galar: true,
+        lgpe: true,
         classification: "Scratch Cat Pokemon",
         height: 0.4,
         weight: 4.2,
@@ -1146,6 +1216,7 @@ var pokeInfo = {
         sprite: "053.png",
         name: "Persian",
         galar: true,
+        lgpe: true,
         classification: "Classy Cat Pokemon",
         height: 1,
         weight: 32,
@@ -1160,6 +1231,7 @@ var pokeInfo = {
         sprite: "053-a.png",
         name: "Alolan Persian",
         galar: true,
+        lgpe: true,
         classification: "Classy Cat Pokemon",
         height: 1.1,
         weight: 33,
@@ -1177,6 +1249,7 @@ var pokeInfo = {
       {
         sprite: "054.png",
         name: "Psyduck",
+        lgpe: true,
         classification: "Duck Pokemon",
         height: 0.8,
         weight: 19.6,
@@ -1194,6 +1267,7 @@ var pokeInfo = {
       {
         sprite: "055.png",
         name: "Golduck",
+        lgpe: true,
         classification: "Duck Pokemon",
         height: 1.7,
         weight: 76.6,
@@ -1211,6 +1285,7 @@ var pokeInfo = {
       {
         sprite: "056.png",
         name: "Mankey",
+        lgpe: true,
         classification: "Pig Monkey Pokemon",
         height: 0.5,
         weight: 28,
@@ -1228,6 +1303,7 @@ var pokeInfo = {
       {
         sprite: "057.png",
         name: "Primeape",
+        lgpe: true,
         classification: "Pig Monkey Pokemon",
         height: 1,
         weight: 32,
@@ -1246,6 +1322,7 @@ var pokeInfo = {
         sprite: "058.png",
         name: "Growlithe",
         galar: true,
+        lgpe: true,
         classification: "Puppy Pokemon",
         height: 0.7,
         weight: 19,
@@ -1265,6 +1342,7 @@ var pokeInfo = {
         sprite: "059.png",
         name: "Arcanine",
         galar: true,
+        lgpe: true,
         classification: "Legendary Pokemon",
         height: 1.9,
         weight: 155,
@@ -1283,6 +1361,7 @@ var pokeInfo = {
       {
         sprite: "060.png",
         name: "Poliwag",
+        lgpe: true,
         classification: "Tadpole Pokemon",
         height: 0.6,
         weight: 12.4,
@@ -1300,6 +1379,7 @@ var pokeInfo = {
       {
         sprite: "061.png",
         name: "Poliwhirl",
+        lgpe: true,
         classification: "Tadpole Pokemon",
         height: 1,
         weight: 20,
@@ -1317,6 +1397,7 @@ var pokeInfo = {
       {
         sprite: "062.png",
         name: "Poliwrath",
+        lgpe: true,
         classification: "Tadpole Pokemon",
         height: 1.3,
         weight: 54,
@@ -1334,6 +1415,7 @@ var pokeInfo = {
       {
         sprite: "063.png",
         name: "Abra",
+        lgpe: true,
         classification: "Psi Pokemon",
         height: 0.9,
         weight: 19.5,
@@ -1351,6 +1433,7 @@ var pokeInfo = {
       {
         sprite: "064.png",
         name: "Kadabra",
+        lgpe: true,
         classification: "Psi Pokemon",
         height: 1.3,
         weight: 56.5,
@@ -1368,6 +1451,7 @@ var pokeInfo = {
       {
         sprite: "065.png",
         name: "Alakazam",
+        lgpe: true,
         classification: "Psi Pokemon",
         height: 1.5,
         weight: 48,
@@ -1381,6 +1465,7 @@ var pokeInfo = {
       {
         sprite: "065-m.png",
         name: "Mega Alakazam",
+        lgpe: true,
         classification: "Psi Pokemon",
         height: 1.2,
         weight: 48,
@@ -1397,6 +1482,7 @@ var pokeInfo = {
         sprite: "066.png",
         name: "Machop",
         galar: true,
+        lgpe: true,
         classification: "Superpower Pokemon",
         height: 0.8,
         weight: 19.5,
@@ -1415,6 +1501,7 @@ var pokeInfo = {
         sprite: "067.png",
         name: "Machoke",
         galar: true,
+        lgpe: true,
         classification: "Superpower Pokemon",
         height: 1.5,
         weight: 70.5,
@@ -1433,6 +1520,7 @@ var pokeInfo = {
         sprite: "068.png",
         name: "Machamp",
         galar: true,
+        lgpe: true,
         classification: "Superpower Pokemon",
         height: 1.6,
         weight: 130,
@@ -1450,6 +1538,7 @@ var pokeInfo = {
       {
         sprite: "069.png",
         name: "Bellsprout",
+        lgpe: true,
         classification: "Flower Pokemon",
         height: 0.7,
         weight: 4,
@@ -1466,6 +1555,7 @@ var pokeInfo = {
       {
         sprite: "070.png",
         name: "Weepinbell",
+        lgpe: true,
         classification: "Flycatcher Pokemon",
         height: 1,
         weight: 6.4,
@@ -1482,6 +1572,7 @@ var pokeInfo = {
       {
         sprite: "071.png",
         name: "Victreebel",
+        lgpe: true,
         classification: "Flycatcher Pokemon",
         height: 1.7,
         weight: 15.5,
@@ -1498,6 +1589,7 @@ var pokeInfo = {
       {
         sprite: "072.png",
         name: "Tentacool",
+        lgpe: true,
         classification: "Jellyfish Pokemon",
         height: 0.9,
         weight: 45.5,
@@ -1515,6 +1607,7 @@ var pokeInfo = {
       {
         sprite: "073.png",
         name: "Tentacruel",
+        lgpe: true,
         classification: "Jellyfish Pokemon",
         height: 1.6,
         weight: 55,
@@ -1532,6 +1625,7 @@ var pokeInfo = {
       {
         sprite: "074.png",
         name: "Geodude",
+        lgpe: true,
         classification: "Rock Pokemon",
         height: 0.4,
         weight: 20,
@@ -1545,6 +1639,7 @@ var pokeInfo = {
       {
         sprite: "074-a.png",
         name: "Alolan Geodude",
+        lgpe: true,
         classification: "Rock Pokemon",
         height: 0.4,
         weight: 20.3,
@@ -1562,6 +1657,7 @@ var pokeInfo = {
       {
         sprite: "075.png",
         name: "Graveler",
+        lgpe: true,
         classification: "Rock Pokemon",
         height: 1,
         weight: 105,
@@ -1575,6 +1671,7 @@ var pokeInfo = {
       {
         sprite: "075-a.png",
         name: "Alolan Graveler",
+        lgpe: true,
         classification: "Rock Pokemon",
         height: 1,
         weight: 110,
@@ -1592,6 +1689,7 @@ var pokeInfo = {
       {
         sprite: "076.png",
         name: "Golem",
+        lgpe: true,
         classification: "Megaton Pokemon",
         height: 1.4,
         weight: 300,
@@ -1605,6 +1703,7 @@ var pokeInfo = {
       {
         sprite: "076-a.png",
         name: "Alolan Golem",
+        lgpe: true,
         classification: "Megaton Pokemon",
         height: 1.7,
         weight: 316,
@@ -1623,6 +1722,7 @@ var pokeInfo = {
         sprite: "077.png",
         name: "Ponyta",
         galar: true,
+        lgpe: true,
         classification: "Fire Horse Pokemon",
         height: 1,
         weight: 30,
@@ -1655,6 +1755,7 @@ var pokeInfo = {
         sprite: "078.png",
         name: "Rapidash",
         galar: true,
+        lgpe: true,
         classification: "Fire Horse Pokemon",
         height: 1.7,
         weight: 95,
@@ -1686,6 +1787,7 @@ var pokeInfo = {
       {
         sprite: "079.png",
         name: "Slowpoke",
+        lgpe: true,
         classification: "Dopey Pokemon",
         height: 1.2,
         weight: 36,
@@ -1703,6 +1805,7 @@ var pokeInfo = {
       {
         sprite: "080.png",
         name: "Slowbro",
+        lgpe: true,
         classification: "Hermit Crab Pokemon",
         height: 1.6,
         weight: 78.5,
@@ -1716,6 +1819,7 @@ var pokeInfo = {
       {
         sprite: "080-m.png",
         name: "Mega Slowbro",
+        lgpe: true,
         classification: "Hermit Crab Pokemon",
         height: 2,
         weight: 120,
@@ -1731,6 +1835,7 @@ var pokeInfo = {
       {
         sprite: "081.png",
         name: "Magnemite",
+        lgpe: true,
         classification: "Magnet Pokemon",
         height: 0.3,
         weight: 6,
@@ -1748,6 +1853,7 @@ var pokeInfo = {
       {
         sprite: "082.png",
         name: "Magneton",
+        lgpe: true,
         classification: "Magnet Pokemon",
         height: 1,
         weight: 60,
@@ -1766,6 +1872,7 @@ var pokeInfo = {
         sprite: "083.png",
         name: "Farfetch'd",
         galar: true,
+        lgpe: true,
         classification: "Wild Duck Pokemon",
         height: 0.8,
         weight: 15,
@@ -1796,6 +1903,7 @@ var pokeInfo = {
       {
         sprite: "084.png",
         name: "Doduo",
+        lgpe: true,
         classification: "Twin Bird Pokemon",
         height: 1.4,
         weight: 39.2,
@@ -1813,6 +1921,7 @@ var pokeInfo = {
       {
         sprite: "085.png",
         name: "Dodrio",
+        lgpe: true,
         classification: "Triple Bird Pokemon",
         height: 1.8,
         weight: 85.2,
@@ -1830,6 +1939,7 @@ var pokeInfo = {
       {
         sprite: "086.png",
         name: "Seel",
+        lgpe: true,
         classification: "Sea Lion Pokemon",
         height: 1.1,
         weight: 90,
@@ -1847,6 +1957,7 @@ var pokeInfo = {
       {
         sprite: "087.png",
         name: "Dewgong",
+        lgpe: true,
         classification: "Sea Lion Pokemon",
         height: 1.7,
         weight: 120,
@@ -1864,6 +1975,7 @@ var pokeInfo = {
       {
         sprite: "088.png",
         name: "Grimer",
+        lgpe: true,
         classification: "Sludge Pokemon",
         height: 0.9,
         weight: 30,
@@ -1877,6 +1989,7 @@ var pokeInfo = {
       {
         sprite: "088-a.png",
         name: "Alolan Grimer",
+        lgpe: true,
         classification: "Sludge Pokemon",
         height: 0.7,
         weight: 42,
@@ -1894,6 +2007,7 @@ var pokeInfo = {
       {
         sprite: "089.png",
         name: "Muk",
+        lgpe: true,
         classification: "Sludge Pokemon",
         height: 1.2,
         weight: 30,
@@ -1907,6 +2021,7 @@ var pokeInfo = {
       {
         sprite: "089-a.png",
         name: "Alolan Muk",
+        lgpe: true,
         classification: "Sludge Pokemon",
         height: 1,
         weight: 52,
@@ -1925,6 +2040,7 @@ var pokeInfo = {
         sprite: "090.png",
         name: "Sheller",
         galar: true,
+        lgpe: true,
         classification: "Bivalve Pokemon",
         height: 0.3,
         weight: 4,
@@ -1943,6 +2059,7 @@ var pokeInfo = {
         sprite: "091.png",
         name: "Cloyster",
         galar: true,
+        lgpe: true,
         classification: "Bivalve Pokemon",
         height: 1.5,
         weight: 132.5,
@@ -1961,6 +2078,7 @@ var pokeInfo = {
         sprite: "092.png",
         name: "Gastly",
         galar: true,
+        lgpe: true,
         classification: "Gas Pokemon",
         height: 1.3,
         weight: 0.1,
@@ -1977,6 +2095,7 @@ var pokeInfo = {
         sprite: "093.png",
         name: "Haunter",
         galar: true,
+        lgpe: true,
         classification: "Gas Pokemon",
         height: 1.6,
         weight: 0.1,
@@ -1993,6 +2112,7 @@ var pokeInfo = {
         sprite: "094.png",
         name: "Gengar",
         galar: true,
+        lgpe: true,
         classification: "Shadow Pokemon",
         height: 1.5,
         weight: 40.5,
@@ -2004,6 +2124,7 @@ var pokeInfo = {
       {
         sprite: "094-m.png",
         name: "Mega Gengar",
+        lgpe: true,
         classification: "Shadow Pokemon",
         height: 1.4,
         weight: 40.5,
@@ -2020,6 +2141,7 @@ var pokeInfo = {
         sprite: "095.png",
         name: "Onix",
         galar: true,
+        lgpe: true,
         classification: "Rock Snake Pokemon",
         height: 8.8,
         weight: 210,
@@ -2037,6 +2159,7 @@ var pokeInfo = {
       {
         sprite: "096.png",
         name: "Drowzee",
+        lgpe: true,
         classification: "Hypnosis Pokemon",
         height: 1,
         weight: 32.4,
@@ -2054,6 +2177,7 @@ var pokeInfo = {
       {
         sprite: "097.png",
         name: "Hypno",
+        lgpe: true,
         classification: "Hypnosis Pokemon",
         height: 1.6,
         weight: 75.6,
@@ -2072,6 +2196,7 @@ var pokeInfo = {
         sprite: "098.png",
         name: "Krabby",
         galar: true,
+        lgpe: true,
         classification: "River Crab Pokemon",
         height: 0.4,
         weight: 6.5,
@@ -2090,6 +2215,7 @@ var pokeInfo = {
         sprite: "099.png",
         name: "Kingler",
         galar: true,
+        lgpe: true,
         classification: "Pincer Pokemon",
         height: 1.3,
         weight: 60,
@@ -2107,6 +2233,7 @@ var pokeInfo = {
       {
         sprite: "100.png",
         name: "Voltorb",
+        lgpe: true,
         classification: "Ball Pokemon",
         height: 0.5,
         weight: 10.4,
@@ -2124,6 +2251,7 @@ var pokeInfo = {
       {
         sprite: "101.png",
         name: "Electrode",
+        lgpe: true,
         classification: "Ball Pokemon",
         height: 1.2,
         weight: 66.6,
@@ -2141,6 +2269,7 @@ var pokeInfo = {
       {
         sprite: "102.png",
         name: "Exeggcute",
+        lgpe: true,
         classification: "Egg Pokemon",
         height: 0.4,
         weight: 2.5,
@@ -2157,6 +2286,7 @@ var pokeInfo = {
       {
         sprite: "103.png",
         name: "Exeggutor",
+        lgpe: true,
         classification: "Coconut Pokemon",
         height: 2,
         weight: 120,
@@ -2169,6 +2299,7 @@ var pokeInfo = {
       {
         sprite: "103-a.png",
         name: "Alolan Exeggutor",
+        lgpe: true,
         classification: "Coconut Pokemon",
         height: 10.9,
         weight: 415.6,
@@ -2185,6 +2316,7 @@ var pokeInfo = {
       {
         sprite: "104.png",
         name: "Cubone",
+        lgpe: true,
         classification: "Lonely Pokemon",
         height: 0.4,
         weight: 6.5,
@@ -2202,6 +2334,7 @@ var pokeInfo = {
       {
         sprite: "105.png",
         name: "Marowak",
+        lgpe: true,
         classification: "Bone Keeper Pokemon",
         height: 1,
         weight: 45,
@@ -2215,6 +2348,7 @@ var pokeInfo = {
       {
         sprite: "105-a.png",
         name: "Alolan Marowak",
+        lgpe: true,
         classification: "Bone Keeper Pokemon",
         height: 1,
         weight: 34,
@@ -2233,6 +2367,7 @@ var pokeInfo = {
         sprite: "106.png",
         name: "Hitmonlee",
         galar: true,
+        lgpe: true,
         classification: "Kicking Pokemon",
         height: 1.5,
         weight: 49.8,
@@ -2251,6 +2386,7 @@ var pokeInfo = {
         sprite: "107.png",
         name: "Hitmonchan",
         galar: true,
+        lgpe: true,
         classification: "Punching Pokemon",
         height: 1.4,
         weight: 50.2,
@@ -2268,6 +2404,7 @@ var pokeInfo = {
       {
         sprite: "108.png",
         name: "Lickitung",
+        lgpe: true,
         classification: "Licking Pokemon",
         height: 1.2,
         weight: 65.5,
@@ -2286,6 +2423,7 @@ var pokeInfo = {
         sprite: "109.png",
         name: "Koffing",
         galar: true,
+        lgpe: true,
         classification: "Poison Gas Pokemon",
         height: 0.6,
         weight: 1,
@@ -2302,6 +2440,7 @@ var pokeInfo = {
         sprite: "110.png",
         name: "Weezing",
         galar: true,
+        lgpe: true,
         classification: "Poison Gas Pokemon",
         height: 1.2,
         weight: 9.5,
@@ -2318,6 +2457,7 @@ var pokeInfo = {
         sprite: "111.png",
         name: "Rhyhorn",
         galar: true,
+        lgpe: true,
         classification: "Spikes Pokemon",
         height: 1,
         weight: 115,
@@ -2336,6 +2476,7 @@ var pokeInfo = {
         sprite: "112.png",
         name: "Rhydon",
         galar: true,
+        lgpe: true,
         classification: "Drill Pokemon",
         height: 1.9,
         weight: 120,
@@ -2353,6 +2494,7 @@ var pokeInfo = {
       {
         sprite: "113.png",
         name: "Chansey",
+        lgpe: true,
         classification: "Egg Pokemon",
         height: 1.1,
         weight: 34.6,
@@ -2370,6 +2512,7 @@ var pokeInfo = {
       {
         sprite: "114.png",
         name: "Tangela",
+        lgpe: true,
         classification: "Vine Pokemon",
         height: 1,
         weight: 35,
@@ -2387,6 +2530,7 @@ var pokeInfo = {
       {
         sprite: "115.png",
         name: "Kangaskhan",
+        lgpe: true,
         classification: "Parent Pokemon",
         height: 2.2,
         weight: 80,
@@ -2400,6 +2544,7 @@ var pokeInfo = {
       {
         sprite: "115-m.png",
         name: "Mega Kangaskhan",
+        lgpe: true,
         classification: "Parent Pokemon",
         height: 2.2,
         weight: 100,
@@ -2415,6 +2560,7 @@ var pokeInfo = {
       {
         sprite: "116.png",
         name: "Horsea",
+        lgpe: true,
         classification: "Dragon Pokemon",
         height: 0.4,
         weight: 8,
@@ -2432,6 +2578,7 @@ var pokeInfo = {
       {
         sprite: "117.png",
         name: "Seadra",
+        lgpe: true,
         classification: "Dragon Pokemon",
         height: 1.2,
         weight: 25,
@@ -2450,6 +2597,7 @@ var pokeInfo = {
         sprite: "118.png",
         name: "Goldeen",
         galar: true,
+        lgpe: true,
         classification: "Goldfish Pokemon",
         height: 0.6,
         weight: 15,
@@ -2468,6 +2616,7 @@ var pokeInfo = {
         sprite: "119.png",
         name: "Seaking",
         galar: true,
+        lgpe: true,
         classification: "Goldfish Pokemon",
         height: 1.3,
         weight: 39,
@@ -2485,6 +2634,7 @@ var pokeInfo = {
       {
         sprite: "120.png",
         name: "Staryu",
+        lgpe: true,
         classification: "Starshape Pokemon",
         height: 0.8,
         weight: 34.5,
@@ -2502,6 +2652,7 @@ var pokeInfo = {
       {
         sprite: "121.png",
         name: "Starmie",
+        lgpe: true,
         classification: "Mysterious Pokemon",
         height: 1.1,
         weight: 80,
@@ -2520,6 +2671,7 @@ var pokeInfo = {
         sprite: "122.png",
         name: "Mr. Mime",
         galar: true,
+        lgpe: true,
         classification: "Barrier Pokemon",
         height: 1.3,
         weight: 54.5,
@@ -2537,6 +2689,7 @@ var pokeInfo = {
       {
         sprite: "123.png",
         name: "Scyther",
+        lgpe: true,
         classification: "Mantis Pokemon",
         height: 1.5,
         weight: 56,
@@ -2554,6 +2707,7 @@ var pokeInfo = {
       {
         sprite: "124.png",
         name: "Jynx",
+        lgpe: true,
         classification: "Humanshape Pokemon",
         height: 1.4,
         weight: 40.6,
@@ -2571,6 +2725,7 @@ var pokeInfo = {
       {
         sprite: "125.png",
         name: "Electabuzz",
+        lgpe: true,
         classification: "Electric Pokemon",
         height: 1.1,
         weight: 30,
@@ -2587,6 +2742,7 @@ var pokeInfo = {
       {
         sprite: "126.png",
         name: "Magmar",
+        lgpe: true,
         classification: "Spitfire Pokemon",
         height: 1.3,
         weight: 44.5,
@@ -2603,6 +2759,7 @@ var pokeInfo = {
       {
         sprite: "127.png",
         name: "Pinsir",
+        lgpe: true,
         classification: "Stagbeetle Pokemon",
         height: 1.5,
         weight: 55,
@@ -2616,6 +2773,7 @@ var pokeInfo = {
       {
         sprite: "127-m.png",
         name: "Mega Pinsir",
+        lgpe: true,
         classification: "Stagbeetle Pokemon",
         height: 1.7,
         weight: 59,
@@ -2631,6 +2789,7 @@ var pokeInfo = {
       {
         sprite: "128.png",
         name: "Tauros",
+        lgpe: true,
         classification: "Wild Bull Pokemon",
         height: 1.4,
         weight: 88.4,
@@ -2649,6 +2808,7 @@ var pokeInfo = {
         sprite: "129.png",
         name: "Magikarp",
         galar: true,
+        lgpe: true,
         classification: "Fish Pokemon",
         height: 0.9,
         weight: 10,
@@ -2666,6 +2826,7 @@ var pokeInfo = {
         sprite: "130.png",
         name: "Gyarados",
         galar: true,
+        lgpe: true,
         classification: "Atrocious Pokemon",
         height: 6.5,
         weight: 235,
@@ -2678,6 +2839,7 @@ var pokeInfo = {
       {
         sprite: "130-m.png",
         name: "Mega Gyarados",
+        lgpe: true,
         classification: "Atrocious Pokemon",
         height: 6.5,
         weight: 305,
@@ -2694,6 +2856,7 @@ var pokeInfo = {
         sprite: "131.png",
         name: "Lapras",
         galar: true,
+        lgpe: true,
         classification: "Transport Pokemon",
         height: 2.5,
         weight: 220,
@@ -2712,6 +2875,7 @@ var pokeInfo = {
         sprite: "132.png",
         name: "Ditto",
         galar: true,
+        lgpe: true,
         classification: "Transform Pokemon",
         height: 0.3,
         weight: 4,
@@ -2729,6 +2893,7 @@ var pokeInfo = {
         sprite: "133.png",
         name: "Eevee",
         galar: true,
+        lgpe: true,
         classification: "Evolution Pokemon",
         height: 0.3,
         weight: 6.5,
@@ -2747,6 +2912,7 @@ var pokeInfo = {
         sprite: "134.png",
         name: "Vaporeon",
         galar: true,
+        lgpe: true,
         classification: "Bubble Jet Pokemon",
         height: 1,
         weight: 29,
@@ -2764,6 +2930,7 @@ var pokeInfo = {
         sprite: "135.png",
         name: "Jolteon",
         galar: true,
+        lgpe: true,
         classification: "Lightning Pokemon",
         height: 0.8,
         weight: 24.5,
@@ -2781,6 +2948,7 @@ var pokeInfo = {
         sprite: "136.png",
         name: "Flareon",
         galar: true,
+        lgpe: true,
         classification: "Flame Pokemon",
         height: 0.9,
         weight: 25,
@@ -2797,6 +2965,7 @@ var pokeInfo = {
       {
         sprite: "137.png",
         name: "Porygon",
+        lgpe: true,
         classification: "Virtual Pokemon",
         height: 0.8,
         weight: 36.5,
@@ -2814,6 +2983,7 @@ var pokeInfo = {
       {
         sprite: "138.png",
         name: "Omanyte",
+        lgpe: true,
         classification: "Spiral Pokemon",
         height: 0.4,
         weight: 7.5,
@@ -2831,6 +3001,7 @@ var pokeInfo = {
       {
         sprite: "139.png",
         name: "Omastar",
+        lgpe: true,
         classification: "Spiral Pokemon",
         height: 1,
         weight: 35,
@@ -2848,6 +3019,7 @@ var pokeInfo = {
       {
         sprite: "140.png",
         name: "Kabuto",
+        lgpe: true,
         classification: "Shellfish Pokemon",
         height: 0.5,
         weight: 11.5,
@@ -2865,6 +3037,7 @@ var pokeInfo = {
       {
         sprite: "141.png",
         name: "Kabutops",
+        lgpe: true,
         classification: "Shellfish Pokemon",
         height: 1.3,
         weight: 40.5,
@@ -2882,6 +3055,7 @@ var pokeInfo = {
       {
         sprite: "142.png",
         name: "Aerodactyl",
+        lgpe: true,
         classification: "Fossil Pokemon",
         height: 1.8,
         weight: 59,
@@ -2895,6 +3069,7 @@ var pokeInfo = {
       {
         sprite: "142-m.png",
         name: "Mega Aerodactyl",
+        lgpe: true,
         classification: "Fossil Pokemon",
         height: 2.1,
         weight: 79,
@@ -2911,6 +3086,7 @@ var pokeInfo = {
         sprite: "143.png",
         name: "Snorlax",
         galar: true,
+        lgpe: true,
         classification: "Sleeping Pokemon",
         height: 2.1,
         weight: 460,
@@ -2928,6 +3104,7 @@ var pokeInfo = {
       {
         sprite: "144.png",
         name: "Articuno",
+        lgpe: true,
         classification: "Freeze Pokemon",
         height: 1.7,
         weight: 55.4,
@@ -2944,6 +3121,7 @@ var pokeInfo = {
       {
         sprite: "145.png",
         name: "Zapdos",
+        lgpe: true,
         classification: "Electric Pokemon",
         height: 1.6,
         weight: 52.6,
@@ -2960,6 +3138,7 @@ var pokeInfo = {
       {
         sprite: "146.png",
         name: "Moltres",
+        lgpe: true,
         classification: "Flame Pokemon",
         height: 2,
         weight: 60,
@@ -2976,6 +3155,7 @@ var pokeInfo = {
       {
         sprite: "147.png",
         name: "Dratini",
+        lgpe: true,
         classification: "Dragon Pokemon",
         height: 1.8,
         weight: 3.3,
@@ -2992,6 +3172,7 @@ var pokeInfo = {
       {
         sprite: "148.png",
         name: "Dragonair",
+        lgpe: true,
         classification: "Dragon Pokemon",
         height: 4,
         weight: 16.5,
@@ -3008,6 +3189,7 @@ var pokeInfo = {
       {
         sprite: "149.png",
         name: "Dragonite",
+        lgpe: true,
         classification: "Dragon Pokemon",
         height: 2.2,
         weight: 210,
@@ -3025,6 +3207,7 @@ var pokeInfo = {
         sprite: "150.png",
         name: "Mewtwo",
         galar: true,
+        lgpe: true,
         classification: "Genetic Pokemon",
         height: 2,
         weight: 122,
@@ -3037,6 +3220,7 @@ var pokeInfo = {
       {
         sprite: "150-mx.png",
         name: "Mega Mewtwo X",
+        lgpe: true,
         classification: "Genetic Pokemon",
         height: 2.3,
         weight: 127,
@@ -3048,6 +3232,7 @@ var pokeInfo = {
       {
         sprite: "150-my.png",
         name: "Mega Mewtwo Y",
+        lgpe: true,
         classification: "Genetic Pokemon",
         height: 1.5,
         weight: 33,
@@ -3064,6 +3249,7 @@ var pokeInfo = {
         sprite: "151.png",
         name: "Mew",
         galar: true,
+        lgpe: true,
         classification: "New Species Pokemon",
         height: 0.4,
         weight: 4,
@@ -3834,6 +4020,7 @@ var pokeInfo = {
       {
         sprite: "196.png",
         name: "Espeon",
+        galar: true,
         classification: "Sun Pokemon",
         height: 0.9,
         weight: 26.5,
@@ -3850,6 +4037,7 @@ var pokeInfo = {
       {
         sprite: "197.png",
         name: "Umbreon",
+        galar: true,
         classification: "Moonlight Pokemon",
         height: 1,
         weight: 27,
@@ -3930,6 +4118,7 @@ var pokeInfo = {
       {
         sprite: "202.png",
         name: "Wobbuffet",
+        galar: true,
         classification: "Patient Pokemon",
         height: 1.3,
         weight: 28.5,
@@ -4029,6 +4218,7 @@ var pokeInfo = {
       {
         sprite: "208.png",
         name: "Steelix",
+        galar: true,
         classification: "Iron Snake Pokemon",
         height: 9.2,
         weight: 400,
@@ -4091,6 +4281,7 @@ var pokeInfo = {
       {
         sprite: "211.png",
         name: "Qwilfish",
+        galar: true,
         classification: "Balloon Pokemon",
         height: 0.5,
         weight: 3.9,
@@ -4136,6 +4327,7 @@ var pokeInfo = {
       {
         sprite: "213.png",
         name: "Shuckle",
+        galar: true,
         classification: "Mold Pokemon",
         height: 0.6,
         weight: 20.5,
@@ -4181,6 +4373,7 @@ var pokeInfo = {
       {
         sprite: "215.png",
         name: "Sneasel",
+        galar: true,
         classification: "Sharp Claw Pokemon",
         height: 0.9,
         weight: 28,
@@ -4266,6 +4459,7 @@ var pokeInfo = {
       {
         sprite: "220.png",
         name: "Swinub",
+        galar: true,
         classification: "Pig Pokemon",
         height: 0.4,
         weight: 6.5,
@@ -4283,6 +4477,7 @@ var pokeInfo = {
       {
         sprite: "221.png",
         name: "Piloswine",
+        galar: true,
         classification: "Swine Pokemon",
         height: 1.1,
         weight: 55.8,
@@ -4300,6 +4495,7 @@ var pokeInfo = {
       {
         sprite: "222.png",
         name: "Corsola",
+        galar: true,
         classification: "Coral Pokemon",
         height: 0.6,
         weight: 5,
@@ -4317,6 +4513,7 @@ var pokeInfo = {
       {
         sprite: "223.png",
         name: "Remoraid",
+        galar: true,
         classification: "Jet Pokemon",
         height: 0.6,
         weight: 12,
@@ -4335,6 +4532,7 @@ var pokeInfo = {
       {
         sprite: "224.png",
         name: "Octillery",
+        galar: true,
         classification: "Jet Pokemon",
         height: 0.9,
         weight: 28.5,
@@ -4352,6 +4550,7 @@ var pokeInfo = {
       {
         sprite: "225.png",
         name: "Delibird",
+        galar: true,
         classification: "Delivery Pokemon",
         height: 0.9,
         weight: 16,
@@ -4369,6 +4568,7 @@ var pokeInfo = {
       {
         sprite: "226.png",
         name: "Mantine",
+        galar: true,
         classification: "Kite Pokemon",
         height: 2.1,
         weight: 220,
@@ -4548,6 +4748,7 @@ var pokeInfo = {
       {
         sprite: "236.png",
         name: "Tyrogue",
+        galar: true,
         classification: "Scuffle Pokemon",
         height: 0.7,
         weight: 21,
@@ -4565,6 +4766,7 @@ var pokeInfo = {
       {
         sprite: "237.png",
         name: "Hitmontop",
+        galar: true,
         classification: "Handstand Pokemon",
         height: 1.4,
         weight: 48,
@@ -4714,6 +4916,7 @@ var pokeInfo = {
       {
         sprite: "246.png",
         name: "Larvitar",
+        galar: true,
         classification: "Rock Skin Pokemon",
         height: 0.6,
         weight: 72,
@@ -4730,6 +4933,7 @@ var pokeInfo = {
       {
         sprite: "247.png",
         name: "Pupitar",
+        galar: true,
         classification: "Hard Shell Pokemon",
         height: 1.2,
         weight: 152,
@@ -4745,6 +4949,7 @@ var pokeInfo = {
       {
         sprite: "248.png",
         name: "Tyranitar",
+        galar: true,
         classification: "Armor Pokemon",
         height: 2,
         weight: 202,
@@ -4804,6 +5009,7 @@ var pokeInfo = {
       {
         sprite: "251.png",
         name: "Celebi",
+        galar: true,
         classification: "Time Travel Pokemon",
         height: 0.6,
         weight: 5,
@@ -7480,6 +7686,8 @@ var pokeInfo = {
       {
         sprite: "808.png",
         name: "Meltan",
+        galar: true,
+        lgpe: true,
         classification: "Hex Nut Pokemon",
         height: 0.2,
         weight: 8,
@@ -7495,6 +7703,8 @@ var pokeInfo = {
       {
         sprite: "809.png",
         name: "Melmetal",
+        galar: true,
+        lgpe: true,
         classification:"Hex Nut Pokemon",
         height: 2.5,
         weight: 800,
