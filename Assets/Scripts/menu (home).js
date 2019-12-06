@@ -63,6 +63,10 @@ var pages = [
   {
     page: "Rules and Rankings",
     href: "./Rules and Rankings/"
+  },
+  {
+    page: "SL Pokedex",
+    href: "./SL Pokedex/"
   }
 ];
 

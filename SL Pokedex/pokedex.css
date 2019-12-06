@@ -1,0 +1,12 @@
+#name{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: -243px;
+}
+canvas{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
