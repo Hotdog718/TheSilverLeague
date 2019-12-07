@@ -81,7 +81,23 @@ var victors = [
   {
     image: "Spear - 27th CLT",
     video: "https://www.youtube.com/watch?v=wTz5ZNZTnWA"
-  }
+  },
+  {
+    image: "Aggron - 28th CLT",
+    video: "https://www.youtube.com/watch?v=H8rpGxpJyws"
+  },
+  {
+    image: "Aldnoah Shadow - SBF",
+    video: "https://www.youtube.com/watch?v=8lxqijwiL60&t=1207s"
+  },
+  {
+    image: "Apex - Monotype",
+    video: "https://www.youtube.com/watch?v=n-dVsG0wmcU&t=924s"
+  },
+  {
+    image: "Mo - 29th CLT",
+    video: "https://www.youtube.com/watch?v=ToEsaSc14AQ&t=341s"
+  },
 ];
 
 $(document).ready(function(){

@@ -1,0 +1,61 @@
+.images{
+  width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.images img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+img#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid var(--light-text-color);
+}
+
+td{
+  text-align: center;
+}
+
+/*#display{
+  margin-top: 12px;
+  border-top: solid 1px;
+  padding: 12px;
+}*/
+
+h1.header{
+  text-align: center;
+}
+
+h2.header{
+  text-align: center;
+}
+
+a.subcategory{
+  text-indent: 20px;
+  font-size: 12px;
+}
+
+a.subsubcategory{
+  text-indent: 40px;
+  font-size: 11px;
+}
+
+.vertical-menu a {
+  width: 180px;
+  display: block; /* Make the links appear below each other */
+  /*padding: 12px;  Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
