@@ -67,6 +67,10 @@ var pages = [
   {
     page: "SL Pokedex",
     href: "../SL Pokedex/"
+  },
+  {
+    page: "League Card Creator",
+    href: "../League Card Creator"
   }
 ];
 
