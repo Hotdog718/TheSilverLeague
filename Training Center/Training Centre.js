@@ -1,7 +1,126 @@
 
 $("#ev").click(() => {
   $("#display").empty();
-  $("#display").append(`<h1>EV Training</h1>`)
+  $("#display").append(`
+    <h1 class="header"><u>EV Training Guide</u></h1>
+    <p>EV’s and EV Training. Even if you don’t know what they are, you’ve surely heard them mentioned, and you may be asking yourself questions like ‘what do they mean?’, ‘are they important?’, and ‘does it have anything to do with Eevee?’ The answers are ‘everything’, ‘yes’, and ‘no’, unless your EV training an Eevee, in which case it has everything to do with Eevee’. So, if you’re new to the concept of EV training or just need a refresher course, this guide will hopefully be of use to you.</p>
+    <p>Let’s start with a basic explanation. EV stands for effort values. Every in-game Pokemon encounter, be it a wild or trainer battle, gives EV’s points in certain stats. For example, battling one Magikarp gives your Pokemon one EV point in speed, while defeating one Geodude will give one defense EV point. By battling certain groups of Pokemon and accumulating EV points in certain stats, you can increase your Pokemon’s stat levels as they level up, thereby making them stronger and more battle worthy in today’s increasingly competitive metagame.</p>
+    <p>The first thing you need to do before you start training is to pick which Pokemon you wish to train, and what stats you’re going to EV train. This will all depend on the species and strategy you wish to use. Every Pokemon can acquire a total of 510 EV points. Maximizing one stat requires 252 EV points, therefore 2 stats can be EV trained to their maximum potential, leaving 6 EV’s spare. For the purpose of this guide, I will explain how to fully EV train a pokemon in 2 stats, however you may wish to split the EV’s among multiple stats depending on the Pokemon and the strategy you wish to use.</p>
+    <p>Secondly, EV training a Pokemon requires the Pokemon to be completely untouched with no battle experience, as any in-game battle results in EV points being awarded, thereby lessening your EV training potential if they have already been used in battle. Therefore, it is best to EV train a pokemon that has been freshly caught or hatched. There’s no need to worry if you want to EV train any of your previously owned Pokemon though, as there is a way to remove any accumulated EV points your Pokemon have previously obtained, thereby returning them to their untouched state and able to be successfully EV trained. This is done using certain berries, a list of which can be found at the bottom of this guide. Be warned however, as Pokemon that have already reached level 100 can’t be EV trained, as leveling up is required for accumulated EV’s to take effect.</p>
+    <div id="evtraininggen7">
+      <h1 class="header"><u>EV Training in 7th Gen</u></h1>
+      <p>It seems to be established now that each new generation introduces a new way to train your pokemon for competitive battles and gen 7 does this, whilst training methods like horde battles and super training have been left as the way to train in generation 6 it is still very quick and easy to train in generation 7.</p>
+      <p>SOS Training:<br>In Alola we were introduced to the idea that Pokemon can call in allies in battle to turn it into a 1vs2 battle. This is where one of the new EV training methods come into play because in an SOS battle the number of EVs attained exponentially increases. If a Pokemon gives 1 EV and calls in an ally that will be doubled so 2 EVs will be given for fainting a Pokemon. Now, if you have a power item another 8 EVs are awarded. Pokerus, as most of us know, doubles EVs as well, so if a Pokemon has a power item, pokerus and there is an ally knocked out then 36 EVs are awarded for fainting one of them. Therefore, you only need to defeat a chain of 7 to train a Pokemon to have 252 EVs in a given stat. However, if you give a Pokemon 10 vitamins then the chain is lowered to only needing to defeat a chain of 3 to max out EVs.</p>
+      <p>In order to start an SOS battle a few things are needed. First, make sure the Pokemon in need of training has no EVs at all and give it vitamins if desired, they can be bought at the Mount Hokulani Observatory on Ula’Ula Island. Next, with no EXP Share activated pass on Pokerus to the Pokemon that will be trained and give it the necessary power item. When Pokerus has been transferred it is time to start a chain. The Pokemon that leads the fight should know False Swipe to bring the opponent down to 1hp. You are also going to want to use an Adreniline Orb which makes Pokemon nervous so that will make call ins quicker, also your lead Pokemon should have an ability like Intimidate, Pressure or Unnerve which increases the chance of a call in as well. Now all that is needed to do is knock out Pokemon that are called in until the desired number of EVs are awarded.<br>There are some Pokemon that are very good to fight. Personally, I tend to use some higher leveled Pokemon in order to improve leveling up and making it a big quicker. However, if you want to use Pokemon that have very high call in rates then that is still okay, but the Pokemon that I will be listing are the ones that I train against personally, but it is your preference on how you train.</p>
+      <p>Here is the list of Pokemon that I use to EV train against:<br>HP – AlolanGrimer in Malie City Outer Cape<br>Attack – Corphish in Vast Poni Canyon (Absol on Mount Lanakila also works but this has a very low call in rate)<br>Defence – Exeggcute on Exeggutor Island<br>Special Attack – Elgyem on Mount Hokulani<br>Special Defence – Tentacool on Hau’oli City Beachfront<br>Speed – Sneasel on Mount Lanakila (just be careful with hail because the Vanililuxe line can be called in too)<br>Training with PokePelago</p>
+      <p>The other new way to EV Train is more passive and relies on the use of the PokePelago. There is an Island which is designated for EV Training, this is the Isle Evelup, if you have this at level 3 then you can train up three sets of 6 Pokemon at the same time. In this process, every 30 minutes equate to 4EV points given. This method is good because if you are busy or just want to do something else you can put things in here to train up passively.  The think to remember with this is that it is good for training Pokemon that don’t use the designated 252/252/4 spread, these are usually tanks, mixed tanks or mixed attackers. It also works for training up Pokemon that are level 100 such as mystery gift legendries.</p>
+      <p>The easiest thing to remember with this way of training is that you take the number of EVs you want to train and divide it by 4. For example, a defensive tank Porygon2 suggests that it has 104 defence EVs and 152 special defense EVs. For Defense you can easily use 10 vitamins and then battle one Exeggcute with the Porygon only having Pokerus. But say that you are too busy to train it in special defense or you want to start breeding a new team member, well you can put Porygon in Poke Pelago and have it take 38 play sessions and it will be trained like that. You can speed this up by using PokeBeans as well.<br>These two methods of training are the best way to train in Sun and Moon and Ultra Sun and Ultra Moon. You could use the restaurants in the Festival Plaza but these are only available once a day so SOS training and using the Poke Pelago are a lot faster and more efficient. Hopefully this guide has helped you understand how to train up for competitive battles that take place on the Silver League, now you can go and have a look at the Team Building page and the Training Classroom.</p>
+      <p>Written by Lucy (LRachelR5)</p>
+    </div>
+    <div id="evtraininggen6">
+      <p>The basics of EV Training are exactly the same in 6th Gen, but just like with IV Training, additions have been introduced that make the process easier then ever. These additions are as followed:</p>
+      <p><b>SUPER TRAINING</b><br>Gamefreak's answer to the challenge of EV Training comes from Super Training, a mini-game where you put through Pokemon through a challenge of shooting soccer balls at targets on a giant balloon and in the end once you finish, you receive EVs accordingly. As may know by now, 4 EVs = 1 Stat point, and Gamefreak was smart when designing Super Training because the 3 levels of Training go in +4, +8 and +12, meaning you will never find yourself with an odd number unless you use a Small Training Bag or battle something that only offers 1 EV Point. Medium Bags give you 4 free EVs in a stat while Large offers 12. Double Up bags will (of course) double EVs you'd gain from any Super Training session, and other bags will have additional effects like faster ball shooting.</p>
+      <p>There's also Reset bags, which take the load off of EV erasing berries as 1 reset bag automatically resets the entire Pokemon to base 0 EVs.</p>
+      <p><b>HORDE BATTLES</b><br>Whether it was planned or not, while Gamefreak gave us a battle free option, they also gave us an option that's 10x faster then the solution they advertised. Horde Battles have you facing 5 Pokemon at once and can be summoned by items like Honey, or with a Pokemon that knows the move Sweet Scent. Now this is basically traditional EV Training like you might be used to, except now, its x5, with a Power Item attached while infected with Pokemon, instead of getting 10 EVs, after all 5 Pokemon are down, you'll receive a total of 50. This is already great, but what makes it better, is the change made to Exp. Share.</p>
+      <p>Exp. Share is now a Key Item that effects every Pokemon in the party, and the EVs they receive are determined by the item the individual is holding and if they are infected with Pokerus. What does this mean? In short, the Pokemon you're EV training does not even need to participate in the battle. All they have to do is sit in the back with the right Power Item attached and they will receive 50 EVs per battle. Even without the item, they'll receive 10, the same amount they would've gotten if this were Gen 5.</p>
+      <p><b>IMPORTANT NOTE:</b><br>Another wonderful change is that the most EVs a Pokemon can earn in 1 stat is no longer 255, instead its 252. This means that no longer will you accidently battle too many Litwiks and have 255 in Sp. Atk, if your EV spread is a simple 252/252/4 - have no fear, you can battle 6 hordes and never go over. Sure that 1 Stat point is virtually irrelivant, but its a change made by Gamefreak that only serves to benefit the player.</p>
+      <div style="margin-left: auto; margin-right: auto; text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/sQm7l9vhSkE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    </div>
+    <div id="evtraininggen4and5">
+      <ol>
+        <li>Firstly, you will need to give your untouched Absol the Pokerus virus. While not essential to EV training, it doubles the number of EV points you receive per battle, so if a Pokemon naturally rewards 1 EV point it will now give 2.This makes your training much simpler and quicker. A quick explanation on how to obtain and use Pokerus can be found at the bottom of this guide.</li>
+        <li>Next, you need to give Absol the correct Power item for the stat it is going to be EV trained in. By holding the Power item, the number of EV points your Pokemon is awarded per battle is increased by 4. When coupled with the effect of Pokerus, when battling a wild Pokemon that normally gives 1 EV point, you will instead receive 10, making EV training even faster still. We will start EV training Absol in Attack, therefore it should hold the Power Bracer. See the bottom of this guide for the full list of Power items and which stat they correspond to.</li>
+        <li>Now the training begins. To EV train fully in Attack, Absol needs to battle 26 Goldeen, as each Goldeen defeated gives 1 EV point in attack, thereby giving Absol 10 Attack EV points per battle due to the effects of Pokerus and the Power Bracer. To reach the 252 EV points that will max out its Attack exactly, remove the Power Bracer from Absol for the last Goldeen battle (25 x 10 = 250, plus 2 EV points from the 26th battle). If you are EV training a level 1 freshly hatched Pokemon, obviously they will be too weak to battle for , themselves, therefore once they have been sent into battle you should switch to a stronger Pokemon in your party in order to defeat the 26 Goldeen. Ideally it should be a Pokemon of a high level that can defeat the wild Pokemon in one move. That way, you can use the used PP to keep track of how many Pokemon you have battled. As long as Absol takes part in the battle, it will still receive the EV points.</li>
+        <li>Now that Absol has been fully EV trained in Attack, it now needs to be fully EV trained in Speed; therefore you will need to remove the Power Bracer and replace it with the Power Anklet. For EV training in Speed, Absol will need to battle 26 Magikarp, again removing the Power item for the 26th battle in order to exactly reach the 252 maximum for the stat.</li>
+        <li>Now that Absol has been fully EV trained in both Attack and Speed, you will have 6 EV points remaining from the total 510 EV points it can acquire. These can be placed in any other stat you wish. For this example, we shall place them into Absol’s hit points. This requires battling 3 Wooper. Wooper usually give 1 Hit Point EV, but due to the effects of Pokerus and with no Power item, each of the 3 battles will give 2 Hit Point EV’s, thereby bringing Absol’s EV points total to exactly 510.</li>
+        <li>Absol should now be completely EV trained. To confirm this, visit the woman in the house to the right of the Pokemon Centre in Blackthorn City. If you have been successful in your training, she will award Absol with an Effort Ribbon, proof that 510 EV points have been reached and it is fully trained. You may now battle and level up Absol as normal. You should notice that the stats that have been EV trained will increase a little more than normal each time your EV trained Pokemon levels up. EV training a level 1 Pokemon from scratch will mean that the stat increases are less noticeable, as it will be constantly leveling up. But if, for example, you are EV training a level 40 wild caught Pokemon that can be fully EV trained without leveling up once, when it does you will notice its EV trained stats increase by perhaps 30+ points, as they catch up to their maximum potential.</li>
+      </ol>
+      <div id="berries">
+        <h1><u>Berries</u></h1>
+        <p> If you wish to EV train a Pokemon that has already accumulated EV points, or you wish to change its EV spread, you can do so by using certain berries to remove the EV points and essentially making the Pokemon untouched again. If the Pokemon has more than 100 EV’s in a stat, the first berry will bring the EV’s down to 100, and then each subsequent berry will remove 10 EV’s. Therefore, if your Pokemon has over 100 EV’s in a stat, it will take a maximum of 11 berries to bring that stat’s EV’s back to zero.</p>
+        <ul>
+          <li>To remove Hit Point EV’s - Pomeg Berry</li>
+          <li>To remove Attack EV’s - Kelpsey Berry</li>
+          <li>To remove Defense EV’s - Qualot Berry</li>
+          <li>To remove Sp.Attack EV’s - Hondew Berry</li>
+          <li>To remove Sp.Defense EV’s - Grapa Berry</li>
+          <li>To remove Speed EV’s - Tomato Berry</li>
+        </ul>
+        <p>Keep using berries in all the stats until they no longer have an effect on your Pokemon, at which point your Pokemon will be ready to be EV trained from scratch. Remember that you will be able to remove the EV’s of a level 100 Pokemon, but will be unable to EV train it again as it is no longer able to level up for the EV points to take effect.</p>
+      </div>
+      <div id="pokerus">
+        <h1><u>Pokerus</u></h1>
+        <p>Pokerus is a special virus that doubles the number of EV points your Pokemon acquires per battle. In order to infect the Pokemon you wish to EV train, you first need an infected Pokemon with the purple Pokerus bar next to its level in its profile. As finding your own wild infected Pokemon is nearly as rare as finding a shiny, it’s probably best to trade one from someone else. You then need to enter a wild Pokemon battle with the infected Pokemon at the front of your party, and the Pokemon that you wish to infect in the second slot. Every time the infected Pokemon defeats a wild foe, there’s a 50% chance of Pokerus being passed to the Pokemon next to it in your party, so continue to battle wild Pokemon until this happens.</p>
+        <p>If an infected Pokemon stays in your party past Midnight on any day, they will lose the ability to pass on Pokerus to others, and the purple Pokerus bar will be replaced with a smiley icon next to the Pokemon’s profile picture. The Pokemon will still get the EV training point doubling effect though. Pokerus will not be lost when the Pokemon is kept in the PC, so in order to ensure you can pass on the virus at any time, always keep at least one infected Pokemon in your PC.</p>
+      </div>
+      <div id="poweritems">
+        <h1><u>Power Items</u></h1>
+        <p>Power items can be bought from the Battle Tower for 16 Battle Points each, and are essential in making EV training as quick and easy as possible, as holding the correct Power item for the stat your EV training in allows your Pokemon to gain an extra 4 EV points. Remember to switch the Power items during EV training when you start training in a different stat.</p>
+        <ul>
+          <li>For EV training in Hit Points - Power Weight</li>
+          <li>For EV training in Attack - Power Bracer</li>
+          <li>For EV training in Defense - Power Belt</li>
+          <li>For EV training in Sp.Attack - Power Lens</li>
+          <li>For EV training in Sp.Defense - Power Band</li>
+          <li>For EV training in Speed -Power Anklet</li>
+        </ul>
+      </div>
+      <div id="vitamins">
+        <h1><u>Vitamins</u></h1>
+        <p>You may wish to use vitamins to help you with your EV training. For each vitamin you give to your Pokemon, it will gain 10 EV’s in the corresponding stat. Each stat can take a maximum of 10 vitamins, meaning that you can give your Pokemon 100 EV’s in a stat before you even start EV training. This must be done before you start training though, as this method only works on the first 100 EV’s of a stat. If you’ve already trained your Pokemon in +100 EV’s for a stat, it will no longer accept vitamins for that stat.</p>
+        <ul>
+          <li>Vitamin for Hit Points – Hp Up</li>
+          <li>Vitamin for Attack - Protein</li>
+          <li>Vitamin for Defense - Iron</li>
+          <li>Vitamin for Sp.Attack - Calcium</li>
+          <li>Vitamin for Sp.Defense - Zinc</li>
+          <li>Vitamin for Sp.Defense - Zinc</li>
+        </ul>
+        <p>I personally don’t use vitamins for my EV training, as they are quite costly, and it really doesn’t take too much longer to battle 26 Pokemon to EV train in one stat than it does to battle 16, if you do decide to use vitamins. This however is a personal choice, and you’re free to use this method if you have enough money to spend.</p>
+      </div>
+      <div>
+        <h1><u>Common wild Pokemon and EV points awarded</u></h1>
+        <p>The following list is my own personal choice of common wild Pokemon that give EV points for each stat. I find these Pokemon the easiest and quickest to encounter and battle. Each Pokemon I use for my training naturally give 1 EV point, thereby giving 10 per battle after the effects of Pokerus and the Power item. There is however wild Pokemon that can give 2 or 3 EV points per battle, or even multiple EV points for different stats. This requires recalculating how many Pokemon you will need to battle in order to reach the 510 EV point maximum. You may wish to do this is you find it easier, but for simplicities sake, I recommend using the Pokemon listed below.</p>
+        <h3><u>For 4th Generation (HeartGold/SoulSilver)</u></h3>
+        <ul>
+          <li>For EV training in Hit Points - Wooper in the water of the Cliff Edge Gate cave, in Cianwood City (requires Pokemon that use surf and rock climb to access the water) or Slowpoke in the body of water to your left when you first enter the Slowpoke Well (100% Slowpoke encourter rate, still requires a Pokemon that knows Surf.)</li>
+          <li>For EV training in Attack - Goldeen in the water on Route 42, to the left of Mahogany Town (requires a Pokemon that knows surf)</li>
+          <li>For EV training in Defense - Geodude and Cubone in the Rock Tunnel in Kanto (Fly to Cerulean City and get to the tunnel via route 9)</li>
+          <li>For EV training in Sp. Attack - Psyduck in the water on Route 6, north of Vermillion City (requires a Pokemon that knows surf)</li>
+          <li>For EV training in Sp. Defense - Tentacool in the sea west of Cherrygrove City (requires a Pokemon that knows surf)</li>
+          <li>For EV training in Speed - Magikarp in the Lake of Rage (requires a Pokemon that knows surf)</li>
+        </ul>
+        <h3><u>For 5th Generation (Black/White)</u></h3>
+        <ul>
+          <li>Hp = Stunfisk, surfing at Moor of Icarus (gives 12 evs per battle, so 21 battles to max hp)</li>
+          <li>Attack = Sandile, Darumaka and Scraggy in the Desert Area.  Also, Patrat and Lillipup each give 1 Attack EV on Route 1.</li>
+          <li>Defence = Klink and Ferrothorn in Chargestone Cave</li>
+          <li>Special attack = Litwick on second floor of Celestial Tower</li>
+          <li>Special defence = Frillish, surfing on route 4</li>
+          <li>Speed = Baculin, surfing on Route 1 (gives 12 evs per battle, so 21 battles to max speed)</li>
+        </ul>
+        <h3><u>For 6th Generation (X/Y)</u></h3>
+        <p><u>Note: All of the following are Horde Battles</u></p>
+        <ul>
+          <li>HP = Gulpin (Route 5)</li>
+          <li>Attack = Bellsproute (Route 14, grass patches) OR Scraggy (Route 5) if its raining on Route 14</li>
+          <li>Defence = Durant Geodude & Aron (Terminus Cave)</li>
+          <li>Sp. Attack = Vanillite/Smoochum (Snow Cavern)</li>
+          <li>Sp. Defence = Mime Jr. (Reflection Cave) Or Hoppip (Route 7)</li>
+          <li>Speed = Wingull (Route 12)</li>
+        </ul>
+        <h3><u>For Omega Ruby and Alpha Sapphire</u></h3>
+        <ul>
+          <li>HP = Whimsur (Rusturf Tunnel)</li>
+          <li>Attack = Shuppet (Mt. Pyre Floor 1)</li>
+          <li>Defence = Sandshrew (Route 111 Desert)</li>
+          <li>Sp. Attack = Oddish  (Route 119) Or Spinda (Route 113)</li>
+          <li>Sp. Defence = Swablu (Route 115)</li>
+          <li>Speed = Zigzagoon / Wingull (Route 104) or Zubat (Meteor Falls Floor 1)</li>
+        </ul>
+      </div>
+    </div>
+  `);
 })
 
 $("#iv").click(() => {
@@ -505,7 +624,10 @@ $("#team").click(() => {
   `)
 })
 
-$("#classroom").click(() => {
+/*$("#classroom").click(() => {
   $("#display").empty();
-  $("#display").append(`<h1 class="header">SL Classroom</h1>`)
-})
+  $("#display").append(
+    `<h1 class="header">SL Classroom</h1>
+
+  `);
+})*/
