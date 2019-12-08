@@ -7,6 +7,7 @@ var scale = $("#scale").val() || 1;
 var x = $("#x").val() || 0;
 var y = $("#y").val() || 0;
 var flip = document.getElementById("flip").checked || false;
+var outline = document.getElementById("outline").checked || false;
 
 $(document).ready(() => {
   let bArray = ["Dragons Den", "Galar Map", "Motostoke", "Power Plant", "Victory Road", "Whirl Islands"];
@@ -45,6 +46,13 @@ $(document).ready(() => {
     flip = document.getElementById("flip").checked;
     createCard();
   })
+  $("#outline").change(function(){
+    outline = document.getElementById("outline").checked;
+    createCard();
+  })
+  $("#name").change(function(){
+    createCard();
+  })
 })
 
 $("#background-toggle").click(function(){
@@ -65,7 +73,7 @@ $("#upload :file").change(function(){
     var reader = new FileReader();
     reader.onload = function(e) {
       sprite = e.target.result;
-      if(rank && background){
+      if(background){
         createCard();
       }
     }
@@ -74,7 +82,7 @@ $("#upload :file").change(function(){
 })
 
 function createCard(){
-  if(!(sprite && rank && background && frame)) return;
+  if(!(sprite && background)) return;
   let { canvas, ctx } = createCanvas("result");
   if(background){
     let img1 = new Image();
@@ -100,15 +108,11 @@ function createCard(){
             let img3 = new Image();
             img3.onload = () => {
               ctx.drawImage(img3, 0, 0);
-              if(rank){
-                let img4 = new Image();
-                img4.onload = () => {
-                  ctx.drawImage(img4, 0, 160, 40, 40);
-                }
-                img4.src = `../Assets/Images/Rankings/${rank}.png`;
-              }
+              fillRankAndName(canvas, ctx);
             }
             img3.src = `./Images/Frames/${frame}.png`
+          }else{
+            fillRankAndName(canvas, ctx);
           }
         }
         img2.src = sprite;
@@ -118,11 +122,41 @@ function createCard(){
   }
 }
 
+function fillRankAndName(canvas, ctx){
+  if(rank){
+    let img4 = new Image();
+    img4.onload = () => {
+      ctx.drawImage(img4, 0, 160, 40, 40);
+    }
+    img4.src = `../Assets/Images/Rankings/${rank}.png`;
+  }
+  if($("#name").val()){
+    let name = $("#name").val();
+    let fontsize = 1;
+    ctx.font = `${fontsize}px Revue`;
+    while(ctx.measureText(name).width <= 100){
+      fontsize++;
+      ctx.font = `${fontsize}px Revue`;
+    }
+    ctx.textAlign = "end";
+    ctx.fillStyle="white";
+    var drawX = 145;
+    var drawY = 190;
+    ctx.fillText($("#name").val(), drawX, drawY);
+    if(outline){
+      for(let i = 0; i<=50; i++){
+        ctx.strokeText($("#name").val(), drawX, drawY);
+      }
+    }
+  }
+}
+
 const createCanvas = (id="") => {
   var canvas = document.createElement("CANVAS");
   var ctx = canvas.getContext("2d");
   canvas.width = 150;
   canvas.height= 200;
+  canvas.id = "league-card";
 
   if(id){
     $(`#${id}`).html(canvas);

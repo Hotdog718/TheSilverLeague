@@ -5,3 +5,8 @@ canvas {
 	image-rendering: optimize-contrast;
 	-ms-interpolation-mode: nearest-neighbor;
 }
+
+/*#league-card{
+  border-radius: 5px;
+  border: 1px solid;
+}*/

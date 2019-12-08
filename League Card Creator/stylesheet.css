@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Revue';
+    src: local('Revue'),
+        url("Revue.woff") format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
