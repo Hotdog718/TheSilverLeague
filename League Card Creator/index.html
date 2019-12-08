@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="../Assets/Images/SLFavicon2.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../Assets/Images/SLFavicon2.png" rel="icon" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="../Assets/CSS/main.css">
+  <script src="../Assets/Scripts/jquery.min.js"></script>
+  <script src="../Assets/Scripts/menu.js"></script>
+  <title>League Card Creator</title>
+</head>
+<body>
+  <div class="top-bar">
+    <div id="button-and-menu"></div>
+  </div>
+  <div class="banner">
+    <img src="../Assets/Images/Banner.png" alt="banner">
+  </div>
+  <div class="content">
+    <div>
+      <h1 id="rank-toggle"><u>Ranking</u></h1>
+      <div id="rank">
+        <label for="rank">D Rank: </label>
+        <input type="radio" name="rank" value="D"><br>
+        <label for="rank">C Rank: </label>
+        <input type="radio" name="rank" value="C"><br>
+        <label for="rank">B Rank: </label>
+        <input type="radio" name="rank" value="B"><br>
+        <label for="rank">A Rank: </label>
+        <input type="radio" name="rank" value="A"><br>
+        <label for="rank">S Rank: </label>
+        <input type="radio" name="rank" value="S"><br>
+        <label for="rank">SS Rank: </label>
+        <input type="radio" name="rank" value="SS">
+      </div>
+      <h1 id="background-toggle"><u>Background</u></h1>
+      <div id="backgrounds">
+
+      </div>
+      <h1 id="frame-toggle"><u>Frame: </u></h1>
+      <div id="frames">
+
+      </div>
+      <h1><u>Sprite: </u></h1>
+      <div id="sprite">
+        <div id="upload">
+          <label for="pic">Upload: </label>
+          <input type="file" name="pic" accept="images/png">
+        </div>
+        <div id="position-scale">
+          <label for="x">X: </label>
+          <input id="x" type="number" name="x" value="0">
+          <br>
+          <label for="y">Y: </label>
+          <input id="y" type="number" name="y" value="0">
+          <br>
+          <label for="scale">Scale: </label>
+          <input id="scale" type="number" name="scale" step="0.05" value="1">
+        </div>
+        <label for="flip">Flip: </label>
+        <input id="flip" type="checkbox" name="flip" value="">
+      </div>
+    </div>
+    <div id="result">
+
+    </div>
+    <p>Note: for best results when scaling, do not use internet explorer, it's garbage</p>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
