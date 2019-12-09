@@ -14,10 +14,6 @@ $(document).ready(() => {
   bArray.forEach((r) => {
     $("#background-list").append(`<li><img src="./Images/Backgrounds/${r}.png" alt="${r}"><label for="background">${r}</label><input type="radio" name="background" value="${r}"></li>`); //<label for="background"><img src="./Images/Backgrounds/${r}.png" alt="${r}"></label><input type="radio" name="background" value="${r}">
   })
-  let fArray = ["Blue - Curved", "Blue - Line", "Green - Curved", "Green - Line", "Orange - Curved", "Orange - Line", "Purple - Curved", "Purple - Line", "Red - Curved", "Red - Line"];
-  fArray.forEach((r) => {
-    $("#frames").append(`<li><img src="./Images/Frames/${r}.png" alt="${r}"><input type="radio" name="frames" value="${r}"></li>`)
-  })
   $('#rank :radio').change(function(){
     rank = this.value;
     createCard();
@@ -26,7 +22,7 @@ $(document).ready(() => {
     background = this.value;
     createCard();
   })
-  $("#frames :radio").change(function(){
+  $("#frames #options :radio").change(function(){
     frame = this.value;
     createCard();
   })
@@ -50,10 +46,54 @@ $(document).ready(() => {
     outline = document.getElementById("outline").checked;
     createCard();
   })
-  $("#name").change(function(){
-    createCard();
-  })
+  $("#name").change(createCard);
+  $("#color1").change(createCard);
+  $("#color2").change(createCard);
 })
+
+
+function drawCurved(canvas, ctx){
+  //upper-bottom;
+  for(let x=0; x<80; x++){
+    let height = Math.floor(0.0063*Math.pow(x,2)-1.0487*x+45.007);
+    ctx.fillStyle = document.getElementById("color1").value;
+    ctx.fillRect(x,0,1,height);
+  }
+
+  //upper-top
+  for(let x = 0; x<55; x++){
+    let height = Math.floor(0.006*Math.pow(x, 2)-0.8763*x+31.225);
+    ctx.fillStyle = document.getElementById("color2").value;
+    ctx.fillRect(x,0,1,height);
+  }
+
+  //lower-top
+  for(let x = 0; x<150; x++){
+    let height = Math.ceil(0.0026*Math.pow(x,2)-0.0922*x+12.818);
+    ctx.fillStyle = document.getElementById("color1").value;
+    ctx.fillRect(x,200-height,1,height);
+  }
+
+  //lower-bottom
+  for(let x=0; x<150;x++){
+    let height = Math.floor((0.000008*Math.pow(x,3))+(0.00002*Math.pow(x,2))-(0.007*x)+6.7925);
+    ctx.fillStyle = document.getElementById("color2").value;
+    ctx.fillRect(x,200-height,1,height);
+  }
+}
+
+function drawLine(canvas, ctx){
+  for(let x = 0; x<150; x++){
+    let height = 20+(9/50)*x;
+    ctx.fillStyle = document.getElementById("color1").value;
+    ctx.fillRect(x,200-height,1,height);
+  }
+  for(let x = 0; x<150; x++){
+    let height = 7+(9/50)*x;
+    ctx.fillStyle = document.getElementById("color2").value;
+    ctx.fillRect(x,200-height,1,height);
+  }
+}
 
 $("#background-toggle").click(function(){
   $("#backgrounds").toggle();
@@ -104,22 +144,24 @@ function createCard(){
           }else{
             ctx.drawImage(img2, x, y, scale*img2.width, scale*img2.height);
           }
-          if(frame){
-            let img3 = new Image();
-            img3.onload = () => {
-              ctx.drawImage(img3, 0, 0);
-              fillRankAndName(canvas, ctx);
-            }
-            img3.src = `./Images/Frames/${frame}.png`
-          }else{
-            fillRankAndName(canvas, ctx);
-          }
+          drawFrame(canvas,ctx);
         }
         img2.src = sprite;
       }
     }
     img1.src = `./Images/Backgrounds/${background}.png`;
   }
+}
+
+function drawFrame(canvas, ctx){
+  if(frame){
+    if(frame === "Curved"){
+      drawCurved(canvas, ctx);
+    }else if(frame === "Line"){
+      drawLine(canvas, ctx);
+    }
+  }
+  fillRankAndName(canvas, ctx);
 }
 
 function fillRankAndName(canvas, ctx){
