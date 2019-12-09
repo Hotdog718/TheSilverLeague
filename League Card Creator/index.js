@@ -10,13 +10,13 @@ var flip = document.getElementById("flip").checked || false;
 var outline = document.getElementById("outline").checked || false;
 
 $(document).ready(() => {
-  let bArray = ["Dragons Den", "Galar Map", "Motostoke", "Power Plant", "Victory Road", "Whirl Islands"];
+  let bArray = ["Dragons Den", "Galar Map", "Motostoke", "Power Plant", "Victory Road", "Whirl Islands", "Ilex Forest (Day)", "Ilex Forest (Dusk)", "Ilex Forest (Night)", "Eternatus", "Alolan Exeggutor", "Silver League"];
   bArray.forEach((r) => {
-    $("#backgrounds").append(`<label for="background"><img src="./Images/Backgrounds/${r}.png" alt="${r}"></label><input type="radio" name="background" value="${r}">`);
+    $("#background-list").append(`<li><img src="./Images/Backgrounds/${r}.png" alt="${r}"><label for="background">${r}</label><input type="radio" name="background" value="${r}"></li>`); //<label for="background"><img src="./Images/Backgrounds/${r}.png" alt="${r}"></label><input type="radio" name="background" value="${r}">
   })
   let fArray = ["Blue - Curved", "Blue - Line", "Green - Curved", "Green - Line", "Orange - Curved", "Orange - Line", "Purple - Curved", "Purple - Line", "Red - Curved", "Red - Line"];
   fArray.forEach((r) => {
-    $("#frames").append(`<label for="frames"><img src="./Images/Frames/${r}.png" alt="${r}"></label><input type="radio" name="frames" value="${r}">`)
+    $("#frames").append(`<li><img src="./Images/Frames/${r}.png" alt="${r}"><input type="radio" name="frames" value="${r}"></li>`)
   })
   $('#rank :radio').change(function(){
     rank = this.value;

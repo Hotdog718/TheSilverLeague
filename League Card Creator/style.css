@@ -10,3 +10,26 @@ canvas {
   border-radius: 5px;
   border: 1px solid;
 }*/
+
+ul.preview{
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+	display: block;
+}
+
+img{
+	display: block;
+}
+
+label{
+	display: inline;
+}
+
+input{
+	display: inline;
+}
+
+li{
+  display: inline-block;
+}
