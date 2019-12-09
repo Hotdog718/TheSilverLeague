@@ -176,7 +176,7 @@ function fillRankAndName(canvas, ctx){
     let name = $("#name").val();
     let fontsize = 1;
     ctx.font = `${fontsize}px Revue`;
-    while(ctx.measureText(name).width <= 100){
+    while(ctx.measureText(name).width <= 95){
       fontsize++;
       ctx.font = `${fontsize}px Revue`;
     }
