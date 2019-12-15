@@ -22,14 +22,21 @@
   </div>
   <div class="content">
     <div>
-      <div>
+      <h1 id="name-toggle"><u>Name:</u></h1>
+      <div id="name-panel">
         <label for="name">Name: </label>
         <input id="name" type="text" name="name" value=""><br>
         <label for="outline">Text Outline: </label>
-        <input id="outline" type="checkbox" name="outline" value="">
+        <input id="outline" type="checkbox" name="outline" value="" checked><br>
+        <label for="name-color">Name Color: </label>
+        <input type="color" id="name-color" name="name-color" value="#FFFFFF"><br>
+        <label for="outline-color">Outline Color: </label>
+        <input type="color" id="outline-color" name="outline-color" value="#000000">
       </div>
       <h1 id="rank-toggle"><u>Ranking</u></h1>
       <div id="rank">
+        <label for="rank">Ignore: </label>
+        <input type="radio" name="rank" value="Ignore" checked><br>
         <label for="rank">D Rank: </label>
         <input type="radio" name="rank" value="D"><br>
         <label for="rank">C Rank: </label>
@@ -51,6 +58,7 @@
       <h1 id="frame-toggle"><u>Frame: </u></h1>
       <div id="frames">
         <div id="options">
+          <label for="frame">None: </label><input type="radio" name="frame" value="None" checked><br>
           <label for="frame">Curved: </label><input type="radio" name="frame" value="Curved"><br>
           <label for="frame">Line: </label><input type="radio" name="frame" value="Line">
         </div>
@@ -66,7 +74,7 @@
         </div>
       </div>
 
-      <h1><u>Sprite: </u></h1>
+      <h1 id="sprite-toggle"><u>Sprite: </u></h1>
       <div id="sprite">
         <div id="upload">
           <label for="pic">Upload: </label>
