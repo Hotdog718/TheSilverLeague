@@ -1,13 +1,12 @@
-var version;
 var sprite;
 var background;
-var rank;
-var frame;
+var rank = "Ignore";
+var frame = "None";
 var scale = $("#scale").val() || 1;
 var x = $("#x").val() || 0;
 var y = $("#y").val() || 0;
 var flip = document.getElementById("flip").checked || false;
-var outline = document.getElementById("outline").checked || false;
+var outline = document.getElementById("outline").checked || true;
 
 $(document).ready(() => {
   let bArray = ["Dragons Den", "Galar Map", "Motostoke", "Power Plant", "Victory Road", "Whirl Islands", "Ilex Forest (Day)", "Ilex Forest (Dusk)", "Ilex Forest (Night)", "Eternatus", "Alolan Exeggutor", "Silver League"];
@@ -49,6 +48,8 @@ $(document).ready(() => {
   $("#name").change(createCard);
   $("#color1").change(createCard);
   $("#color2").change(createCard);
+  $("#name-color").change(createCard);
+  $("#outline-color").change(createCard);
 })
 
 
@@ -107,6 +108,14 @@ $("#frame-toggle").click(function(){
   $("#frames").toggle();
 })
 
+$("#name-toggle").click(function(){
+  $("#name-panel").toggle();
+})
+
+$("#sprite-toggle").click(function(){
+  $("#sprite").toggle();
+})
+
 $("#upload :file").change(function(){
   let input = $(this);
   if (input[0].files && input[0].files[0]){
@@ -120,6 +129,7 @@ $("#upload :file").change(function(){
     reader.readAsDataURL(input[0].files[0]);
   }
 })
+
 
 function createCard(){
   if(!(sprite && background)) return;
@@ -154,7 +164,7 @@ function createCard(){
 }
 
 function drawFrame(canvas, ctx){
-  if(frame){
+  if(frame && frame !== "None"){
     if(frame === "Curved"){
       drawCurved(canvas, ctx);
     }else if(frame === "Line"){
@@ -165,7 +175,7 @@ function drawFrame(canvas, ctx){
 }
 
 function fillRankAndName(canvas, ctx){
-  if(rank){
+  if(rank && rank !== "Ignore"){
     let img4 = new Image();
     img4.onload = () => {
       ctx.drawImage(img4, 0, 160, 40, 40);
@@ -175,20 +185,26 @@ function fillRankAndName(canvas, ctx){
   if($("#name").val()){
     let name = $("#name").val();
     let fontsize = 1;
+    let maxWidth = rank === "Ignore" ? 120 : 100;
+    let maxFontSize = 48;
     ctx.font = `${fontsize}px Revue`;
-    while(ctx.measureText(name).width <= 95){
+    while(ctx.measureText(name).width <= maxWidth && fontsize <= maxFontSize){
       fontsize++;
       ctx.font = `${fontsize}px Revue`;
     }
+    ctx.font = `${fontsize-1}px Revue`;
     ctx.textAlign = "end";
-    ctx.fillStyle="white";
+    ctx.fillStyle= $("#name-color").val() || "white";
     var drawX = 145;
     var drawY = 190;
     ctx.fillText($("#name").val(), drawX, drawY);
+    ctx.fillStyle= "white";
     if(outline){
+      ctx.strokeStyle=$("#outline-color").val() || "black";
       for(let i = 0; i<=50; i++){
         ctx.strokeText($("#name").val(), drawX, drawY);
       }
+      ctx.strokeStyle="black";
     }
   }
 }
