@@ -52,8 +52,7 @@ $(document).ready(() => {
   $("#outline-color").change(createCard);
 })
 
-
-function drawCurved(canvas, ctx){
+const drawCurved = (canvas, ctx) => {
   //upper-bottom;
   for(let x=0; x<80; x++){
     let height = Math.floor(0.0063*Math.pow(x,2)-1.0487*x+45.007);
@@ -83,12 +82,15 @@ function drawCurved(canvas, ctx){
   }
 }
 
-function drawLine(canvas, ctx){
+const drawLine = (canvas, ctx) => {
+  //Upper Border
   for(let x = 0; x<150; x++){
     let height = 20+(9/50)*x;
     ctx.fillStyle = document.getElementById("color1").value;
     ctx.fillRect(x,200-height,1,height);
   }
+  
+  //Bottom Border
   for(let x = 0; x<150; x++){
     let height = 7+(9/50)*x;
     ctx.fillStyle = document.getElementById("color2").value;
@@ -96,25 +98,11 @@ function drawLine(canvas, ctx){
   }
 }
 
-$("#background-toggle").click(function(){
-  $("#backgrounds").toggle();
-})
-
-$("#rank-toggle").click(function(){
-  $("#rank").toggle();
-})
-
-$("#frame-toggle").click(function(){
-  $("#frames").toggle();
-})
-
-$("#name-toggle").click(function(){
-  $("#name-panel").toggle();
-})
-
-$("#sprite-toggle").click(function(){
-  $("#sprite").toggle();
-})
+$("#background-toggle").click(() => $("#backgrounds").toggle());
+$("#rank-toggle").click(() => $("#rank").toggle());
+$("#frame-toggle").click(() => $("#frames").toggle());
+$("#name-toggle").click(() => $("#name-panel").toggle());
+$("#sprite-toggle").click(() => $("#sprite").toggle());
 
 $("#upload :file").change(function(){
   let input = $(this);
@@ -131,7 +119,7 @@ $("#upload :file").change(function(){
 })
 
 
-function createCard(){
+const createCard = () => {
   if(!(sprite && background)) return;
   let { canvas, ctx } = createCanvas("result");
   if(background){
@@ -163,7 +151,7 @@ function createCard(){
   }
 }
 
-function drawFrame(canvas, ctx){
+const drawFrame = (canvas, ctx) => {
   if(frame && frame !== "None"){
     if(frame === "Curved"){
       drawCurved(canvas, ctx);
@@ -174,7 +162,7 @@ function drawFrame(canvas, ctx){
   fillRankAndName(canvas, ctx);
 }
 
-function fillRankAndName(canvas, ctx){
+const fillRankAndName = (canvas, ctx) => {
   if(rank && rank !== "Ignore"){
     let img4 = new Image();
     img4.onload = () => {
