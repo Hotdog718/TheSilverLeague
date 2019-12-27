@@ -1208,6 +1208,31 @@ let movesets = [
       "Thanks for reading."
     ],
     author: "Abel"
+  },
+  {
+    month: "December",
+    day: "23rd",
+    year: 2019,
+    title: "The Symbol of Passion",
+    pokemon: "Ninetales",
+    shiny: true,
+    ability: "Drought",
+    nature: "Timid",
+    item: "Firium-Z",
+    evs: "4 Def., 252 Sp. Atk., 252 Speed",
+    moves: [
+      ["Hidden Power Ground"],
+      ["Fire Blast"],
+      ["Solar Beam"],
+      ["Nasty Plot"]
+    ],
+    desc: [
+      "Ya’ll thought 2019 was going to end with a kommala motw huh? Well PSYCHE! With no motws coming on the new pokemon of the new generation until January, I thought it would be appropriate to end the year with a ninetales motw which can pressure a lot of balance cores in gen 7 ou, most notably celesteela + grass types.",
+      "The set is pretty standard, drought to amp the power of fire blast and have solar beam activate in one turn, standard special sweeper evs with a timid nature to allow ninetales to be as fast and powerful as it can be, and the z move to obliterate beefier mons such as mega venusaur before it hits you with an earthquake. Fire blast is the obligatory stab, solar beam hits bulky waters for great damage and takes advantage of drought with the no turn to charge up, hidden power ground prevents you from being walled by heatrans and allows ninetales to have a reliable way to hit toxapex, and nasty plot takes the power of these moves up a notch.",
+      "Mega Scizor is a great teammate as it can pivot into ninetales with a slow u turn and tank some faster threats. A bulky water resist is a must for ninetales as a good majority of the offensive water types out speed and take ninetales down, especially ash greninja. Fini makes a brilliant partner as it takes all of ash greninjas moves with ease especially under sun, and it can remove hazards. Physical breakers like hoopa-u are welcome as in conjunction with ninetales they can tear down bulkier teams. Hazard support is welcome for ninetales to have an easier time landing Kos. Scarf Landorus-therian is welcome as not only is it a great rocker, it can check hawluchas with explosion.",
+      "Cheers to the end of a year, cheers to the beginning of a new year with new MOTWS on the way. Happy Holidays from this Ninetales and yours truly!"
+    ],
+    author: "Apex Leo"
   }
 ]
 

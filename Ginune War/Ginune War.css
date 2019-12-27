@@ -19,7 +19,7 @@
   flex: 1;
 }
 
-.playlist div #videos{
+.playlist div #gw2-videos{
   flex: 1;
   height: 315px;
   width: 340px;
@@ -33,7 +33,7 @@
   overflow-y: auto;
 }
 
-#videos .playlist-item{
+#gw2-videos .playlist-item{
   padding: 4px;
 }
 
@@ -41,7 +41,7 @@
   padding: 4px;
 }
 
-#videos .playlist-item:hover{
+#gw2-videos .playlist-item:hover{
   background-color: #222222;
 }
 

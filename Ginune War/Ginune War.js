@@ -251,14 +251,12 @@ var gw1Videos = [
 
 $(document).ready(function(){
     gw2Videos.forEach(function(video) {
-		$('#videos').append('<div class="playlist-item"><figure><img width=250 height=140 src="'
-            + video.thumb + '" alt="' + video.name + '"><figcaption>' + video.name.toUpperCase()
-            + '</figcaption></figure></div>');
+		$('#gw2-videos').append(`<div class="playlist-item"><figure><img width=250 height=140 src="${video.thumb}" alt="${video.name}"><figcaption>${video.name.toUpperCase()}</figcaption></figure></div>`);
   	});
-  	$('#videos .playlist-item:first-child').addClass('playing');
+  	$('#gw2-videos .playlist-item:first-child').addClass('playing');
 
-    $('#videos .playlist-item').click(function(){
-      $('#videos .playing').removeClass('playing');
+    $('#gw2-videos .playlist-item').click(function(){
+      $('#gw2-videos .playing').removeClass('playing');
       $(this).addClass("playing");
 
       var vidThumbSearch = $(this).find('img').attr('src');
@@ -270,8 +268,9 @@ $(document).ready(function(){
     });
 
     gw1Videos.forEach(video => {
-      $('#gw1-videos').append('<div class="playlist-item"><p>' + video.name + '</p></div>');
+      $('#gw1-videos').append(`<div class="playlist-item"><p>${video.name}</p></div>`);
     })
+
     $('#gw1-videos .playlist-item:first-child').addClass('playing');
 
     $('#gw1-videos .playlist-item').click(function(){
@@ -287,17 +286,10 @@ $(document).ready(function(){
     });
 
     ginuneWarParticipants.forEach(function(g){
-      $(`.participants`).append('<div style="flex:1;" class="ginune-war-participant"><figure>'
-        + '<p style="text-align: center;">'+g.name + '</p>' + '<p style="text-align: center">(' + g.user + ')</p>'
-        + (g.banner ? '<img src="'+ g.banner + '" alt="' + g.name + '"></img>': '')
-        + (g.sprite ? '<img width="205" height="205" src="'+ g.sprite + '" alt="' + g.name + '"></img>': '')
-        + '</figure></div>')
+      $(`.participants`).append(`<div style="flex:1;" class="ginune-war-participant"><figure><p style="text-align: center;">${g.name}</p><p style="text-align: center">(${g.user})</p>${g.banner ? `<img src="${g.banner}" alt="${g.name}"></img>`: ''}${g.sprite ? `<img width="205" height="205" src="${g.sprite}" alt="${g.name}"></img>`: ''}</figure></div>`)
     })
 
     territoryLeaders.forEach(function(leader){
-      $(".territory-leaders").append('<div style="flex:1" class="ginune-war-participant"><figure>'
-      + '<p style="text-align: center;">'+leader.name + "</p>" + '<p style="text-align: center">('+leader.user+')</p>'
-      + (leader.banner ? '<img src="'+ leader.banner + '" alt="' + leader.name + '"></img>': '')
-      +'</figure></div>')
+      $(".territory-leaders").append(`<div style="flex:1" class="ginune-war-participant"><figure><p style="text-align: center;">${leader.name}</p><p style="text-align: center">(${leader.user})</p>${leader.banner ? `<img src="${leader.banner}" alt="${leader.name}"></img>`: ''}</figure></div>`)
     })
 })
