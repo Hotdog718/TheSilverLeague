@@ -73,6 +73,9 @@ function draw(){
       }
       loaded = true;
     }
+    sprites.onerror = () => {
+      loaded = true;
+    }
     sprites.src = path;
 
     //name and dexnumber
