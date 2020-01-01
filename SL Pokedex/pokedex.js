@@ -258,34 +258,36 @@ function touchEvents(event){
   }
   x -= c.offsetLeft;
   y -= c.offsetTop;
-  if((x >= 164 && x <= 268) && (y >= 41 && y <=145) && loaded){
-    shiny = !shiny;
-    draw();
-  }
-  if((x >= 24 && x <= 78) && (y >= 447 && y <= 497) && loaded){
-    if(id > 1){
-      idDown();
+  if(loaded){
+    if((x >= 164 && x <= 268) && (y >= 41 && y <=145)){
+      shiny = !shiny;
+      draw();
     }
-  }
-  if((x >= 80 && x <= 132) && (y >= 447 && y <= 497) && loaded){
-    if(id < 809){
-      idUp();
+    if((x >= 24 && x <= 78) && (y >= 447 && y <= 497)){
+      if(id > 1){
+        idDown();
+      }
     }
-  }
-  if((x >= 357 && x <= 485) && (y >= 110 && y <= 157) && loaded){
-    murican = !murican;
-    draw();
-  }
-  if((x >= 285 && x <= 335) && (y >= 90 && y <= 140) && pokeInfo[id].forms.length > 1 && loaded){
-    form++;
-    if(!pokeInfo[id].forms[form]){
-      form = 0;
+    if((x >= 80 && x <= 132) && (y >= 447 && y <= 497)){
+      if(id < 809){
+        idUp();
+      }
     }
-    draw();
-  }
-  if((x >= 157 && x <= 500) && (y >= 176 && y <= 240) && pokeInfo[id].forms[form].sl && loaded){
-    SL = !SL;
-    draw();
+    if((x >= 357 && x <= 485) && (y >= 110 && y <= 157)){
+      murican = !murican;
+      draw();
+    }
+    if((x >= 285 && x <= 335) && (y >= 90 && y <= 140) && pokeInfo[id].forms.length > 1){
+      form++;
+      if(!pokeInfo[id].forms[form]){
+        form = 0;
+      }
+      draw();
+    }
+    if((x >= 157 && x <= 500) && (y >= 176 && y <= 240) && pokeInfo[id].forms[form].sl){
+      SL = !SL;
+      draw();
+    }
   }
 }
 
@@ -294,40 +296,42 @@ window.addEventListener('keydown',function(e){
   if([32,37,38,39,40].indexOf(code) > -1){
     e.preventDefault();
   }
-  if(code === 38 && id < 809 && loaded){
-    idUp();
-  }
-  if(code === 40 && id > 1 && loaded){
-    idDown();
-  }
-  if(code === 37 && loaded){
-    if(form === 0){
-      form = pokeInfo[id].forms.length-1;
-      draw();
-    }else{
-      form--;
+  if(loaded){
+    if(code === 38 && id < 809){
+      idUp();
+    }
+    if(code === 40 && id > 1){
+      idDown();
+    }
+    if(code === 37 && pokeInfo[id].forms.length > 1){
+      if(form === 0){
+        form = pokeInfo[id].forms.length-1;
+        draw();
+      }else{
+        form--;
+        draw();
+      }
+    }
+    if(code === 39 && pokeInfo[id].forms.length > 1){
+      if(form === pokeInfo[id].forms.length-1){
+        form = 0;
+        draw();
+      }else{
+        form++;
+        draw();
+      }
+    }
+    if(code === 83){
+      shiny = !shiny;
       draw();
     }
-  }
-  if(code === 39 && loaded){
-    if(form === pokeInfo[id].forms.length-1){
-      form = 0;
-      draw();
-    }else{
-      form++;
+    if(code === 16){
+      murican = !murican;
       draw();
     }
-  }
-  if(code === 83 && loaded){
-    shiny = !shiny;
-    draw();
-  }
-  if(code === 16 && loaded){
-    murican = !murican;
-    draw();
-  }
-  if(code === 17 && pokeInfo[id].forms[form].sl && loaded){
-    SL = !SL;
-    draw();
+    if(code === 17 && pokeInfo[id].forms[form].sl){
+      SL = !SL;
+      draw();
+    }
   }
 })
