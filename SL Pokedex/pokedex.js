@@ -74,7 +74,18 @@ function draw(){
       loaded = true;
     }
     sprites.onerror = () => {
-      loaded = true;
+      var err = new Image();
+      err.onload = () => {
+        loaded = true;
+        if(err.height <= err.width){
+          var height = err.height/err.width;
+          ctx.drawImage(err, 165, 43+(100-height*104)/2, 104, height*104);
+        }else{
+          var width = err.width/err.height;
+          ctx.drawImage(err, 165+(100-width*101)/2,43,101*width,101);
+        }
+      }
+      err.src = "https://www.serebii.net/pokearth/sprites/rb/000.png";
     }
     sprites.src = path;
 
