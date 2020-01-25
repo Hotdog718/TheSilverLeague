@@ -3,14 +3,13 @@ var ctx = c.getContext("2d");
 var shiny = false;
 var id = 1;
 var murican = false;
-var SL = false;
 var form = 0;
 
 var loaded = true;
 
 var select = document.createElement("select");
   select.id = "name";
-for(let i = 1; i<=809; i++){
+for(let i = 1; i<=890; i++){
   if(pokeInfo[i]){
     if(pokeInfo[i].forms[0].name){
       var option = document.createElement("option");
@@ -24,7 +23,6 @@ var use = document.getElementById("use");
 var parentDiv = use.parentNode;
 parentDiv.insertBefore(select, use);
 select.onchange = () => {
-  SL = false;
   form = 0;
   id = select.value;
   draw();
@@ -48,12 +46,6 @@ function draw(){
       ctx.fillRect(287.5, 92.5, 45, 45);
       ctx.fillStyle="black";
       ctx.fillText("Forms", 292.5, 117.5)
-    }
-    if(SL){
-      ctx.font = "8px Arial, Arial Unicode MS";
-      var text = "SL Dex Entry";
-      var num = ctx.measureText(text).width;
-      ctx.fillText(text,500-num,235);
     }
 
     //sprite
@@ -103,9 +95,6 @@ function draw(){
 
     //dex entry
     var dexEntry = info.dexEntry;
-    if(SL && info.sl){
-      dexEntry = info.sl;
-    }
     var words = dexEntry.split(" ");
     var wordLength = 0;
     var row = 0;
@@ -209,14 +198,19 @@ function draw(){
     ctx.fillText("HT",363,130)
     ctx.fillText("WT",363,151);
     if(murican){
-      var inches = Math.round(info.height/0.0254);
-      var feet = Math.floor(inches/12);
-      inches = inches - feet*12;
-      if(inches<10){
-        ctx.fillText(feet+"'0"+inches+"\"",426,130);
+      if(isNaN(info.height)){
+        ctx.fillText("???", 426,130);
       }else{
-        ctx.fillText(feet+"'"+inches+"\"",426,130);
+        var inches = Math.round(info.height/0.0254);
+        var feet = Math.floor(inches/12);
+        inches = inches - feet*12;
+        if(inches<10){
+          ctx.fillText(feet+"'0"+inches+"\"",426,130);
+        }else{
+          ctx.fillText(feet+"'"+inches+"\"",426,130);
+        }
       }
+
       if(isNaN(info.weight)){
         ctx.fillText("??? lb",426,151);
       }else{
@@ -239,7 +233,6 @@ function idUp(){
   do{
     id++;
   }while(!pokeInfo[id]);
-  SL = false;
   select.value = id;
   form = 0;
   draw();
@@ -248,7 +241,6 @@ function idDown(){
   do{
     id--;
   }while(!pokeInfo[id]);
-  SL = false;
   select.value = id;
   form = 0;
   draw();
@@ -280,7 +272,7 @@ function touchEvents(event){
       }
     }
     if((x >= 80 && x <= 132) && (y >= 447 && y <= 497)){
-      if(id < 809){
+      if(id < 890){
         idUp();
       }
     }
@@ -295,10 +287,6 @@ function touchEvents(event){
       }
       draw();
     }
-    if((x >= 157 && x <= 500) && (y >= 176 && y <= 240) && pokeInfo[id].forms[form].sl){
-      SL = !SL;
-      draw();
-    }
   }
 }
 
@@ -308,7 +296,7 @@ window.addEventListener('keydown',function(e){
     e.preventDefault();
   }
   if(loaded){
-    if(code === 38 && id < 809){
+    if(code === 38 && id < 890){
       idUp();
     }
     if(code === 40 && id > 1){
@@ -338,10 +326,6 @@ window.addEventListener('keydown',function(e){
     }
     if(code === 16){
       murican = !murican;
-      draw();
-    }
-    if(code === 17 && pokeInfo[id].forms[form].sl){
-      SL = !SL;
       draw();
     }
   }

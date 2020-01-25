@@ -143,7 +143,7 @@ var pokeInfo = {
       },
       {
         sprite: "006-gi.png",
-        name: "G. Charizard",
+        name: "G-Max Charizard",
         galar: true,
         classification: "Flame Pokemon",
         height: 28,
@@ -275,7 +275,7 @@ var pokeInfo = {
       },
       {
         sprite: "012-gi.png",
-        name: "G. Butterfree",
+        name: "G-Max Butterfree",
         galar: true,
         lgpe: true,
         classification: "Butterfly Pokemon",
@@ -569,7 +569,7 @@ var pokeInfo = {
       },
       {
         sprite: "025-gi.png",
-        name: "G. Pikachu",
+        name: "G-Max Pikachu",
         galar: true,
         lgpe: true,
         classification: "Mouse Pokemon",
@@ -1196,7 +1196,7 @@ var pokeInfo = {
       },
       {
         sprite: "052-gi.png",
-        name: "G. Meowth",
+        name: "G-Max Meowth",
         galar: true,
         classification: "Scratch Cat Pokemon",
         height: 33,
@@ -1327,7 +1327,6 @@ var pokeInfo = {
         height: 0.7,
         weight: 19,
         dexEntry: "A Pokémon with a friendly nature. However, it will bark fiercely at anything invading its territory.",
-        sl: "THE BEST POKEMON IN THE GAME! I LOVE IT! GIVE ME IT! NOWWWWWW!",
         type: "Fire",
         stats: [55,70,45,70,50,60],
         ability1: "Intimidate",
@@ -1347,7 +1346,6 @@ var pokeInfo = {
         height: 1.9,
         weight: 155,
         dexEntry: "A legendary Pokémon in the East. Many people are charmed by the grace and beauty of its running.",
-        sl: "A very good firey doggo.",
         type: "Fire",
         stats: [90,110,80,100,80,95],
         ability1: "Intimidate",
@@ -1788,6 +1786,7 @@ var pokeInfo = {
         sprite: "079.png",
         name: "Slowpoke",
         lgpe: true,
+        galar: true,
         classification: "Dopey Pokemon",
         height: 1.2,
         weight: 36,
@@ -1795,6 +1794,20 @@ var pokeInfo = {
         type: "Water/ Psychic",
         stats: [90,65,65,40,40,15],
         ability1: "Oblivious",
+        ability2: "Own Tempo",
+        hidden: "Regenerator"
+      },
+      {
+        sprite: "079-g.png",
+        name: "Galarian Slowpoke",
+        galar: true,
+        classification: "Dopey Pokemon",
+        height: "???",
+        weight: "???",
+        dexEntry: "No Data.",
+        type: "Water",
+        stats: [90,65,65,40,40,15],
+        ability1: "Gluttony",
         ability2: "Own Tempo",
         hidden: "Regenerator"
       }
@@ -1806,6 +1819,7 @@ var pokeInfo = {
         sprite: "080.png",
         name: "Slowbro",
         lgpe: true,
+        galar: true,
         classification: "Hermit Crab Pokemon",
         height: 1.6,
         weight: 78.5,
@@ -2444,10 +2458,25 @@ var pokeInfo = {
         classification: "Poison Gas Pokemon",
         height: 1.2,
         weight: 9.5,
-        dexEntry: "This Pokémon lives and grows by absorbing poison gas, dust, and germs that exist inside garbage.",
+        dexEntry: "It mixes gases between its two bodies. It's said that these Pokémon were seen all over the Galar region back in the day.",
         type: "Poison",
         stats: [65,90,120,85,70,60],
         ability1: "Levitate"
+      },
+      {
+        sprite: "110-g.png",
+        name: "Galarian Weezing",
+        galar: true,
+        lgpe: true,
+        classification: "Poison Gas Pokemon",
+        height: 3,
+        weight: 16,
+        dexEntry: "This Pokémon consumes particles that contaminate the air. Instead of leaving droppings, it expels clean air.",
+        type: "Poison/ Fairy",
+        stats: [65,90,120,85,70,60],
+        ability1: "Levitate",
+        ability2: "Neutralizing Gas",
+        hidden: "Misty Surge"
       }
     ]
   },
@@ -2681,6 +2710,21 @@ var pokeInfo = {
         ability1: "Soundproof",
         ability2: "Filter",
         hidden: "Technician"
+      },
+      {
+        sprite: "122-g.png",
+        name: "Galarian Mr. Mime",
+        galar: true,
+        lgpe: true,
+        classification: "Barrier Pokemon",
+        height: 1.4,
+        weight: 56.8,
+        dexEntry: "Its talent is tap-dancing. It can also manipulate temperatures to create a floor of ice, which this Pokémon can kick up to use as a barrier.",
+        type: "Ice/ Psychic",
+        stats: [50,65,65,90,90,100],
+        ability1: "Vital Spirit",
+        ability2: "Screen Cleaner",
+        hidden: "Ice Body"
       }
     ]
   },
@@ -2860,6 +2904,21 @@ var pokeInfo = {
         classification: "Transport Pokemon",
         height: 2.5,
         weight: 220,
+        dexEntry: "A gentle soul that can understand human speech. It can ferry people across the sea on its back.",
+        type: "Water/ Ice",
+        stats: [130,85,80,85,95,60],
+        ability1: "Water Absorb",
+        ability2: "Shell Armor",
+        hidden: "Hydration"
+      },
+      {
+        sprite: "131-gi.png",
+        name: "G-Max Lapras",
+        galar: true,
+        lgpe: true,
+        classification: "Transport Pokemon",
+        height: 24,
+        weight: "???",
         dexEntry: "A gentle soul that can understand human speech. It can ferry people across the sea on its back.",
         type: "Water/ Ice",
         stats: [130,85,80,85,95,60],
@@ -3853,7 +3912,6 @@ var pokeInfo = {
         height: 1.1,
         weight: 33.9,
         dexEntry: "Although its cries sound like screams, a composer created a beautiful ballad that was influenced by the sounds.",
-        sl: "Politoed... Fucking... Politoed...",
         type: "Water",
         stats: [90,75,75,90,100,70],
         ability1: "Water Absorb",
@@ -4507,6 +4565,19 @@ var pokeInfo = {
         ability1: "Hustle",
         ability2: "Natural Cure",
         hidden: "Regenerator"
+      },
+      {
+        sprite: "222-g.png",
+        name: "Galarian Corsola",
+        galar: true,
+        classification: "Coral Pokemon",
+        height: 0.6,
+        weight: 0.5,
+        dexEntry: "Watch your step when wandering areas oceans once covered. What looks like a stone could be this Pokémon, and it will curse you if you kick it.",
+        type: "Ghost",
+        stats: [60,55,100,65,100,30],
+        ability1: "Weak Armor",
+        hidden: "Cursed Body"
       }
     ]
   },
@@ -4520,7 +4591,6 @@ var pokeInfo = {
         height: 0.6,
         weight: 12,
         dexEntry: "This Pokémon clings to Mantine and shares in its prosperity. When its Mantine is attacked, Remoraid will fight alongside it!",
-        sl: "E̸̻̔ŗ̴͆r̷̲͋ô̴͈r̶̺͝ ̴̘͠4̵̟̄0̸̪̓4̴̂͜:̷͖͌ ̶͚̐D̵͓̊é̶̜x̵̲͘ ̶̛̳Ē̸͜n̸̠͊ţ̶̓r̶̲̐y̴̖͑ ̴̡͐n̴̗̚o̵͕̅t̷̩̄ ̴̨͌f̸̘̌o̷̪͠ů̸͔ṋ̸̍d̸̢͠",
         type: "Water",
         stats: [35,65,35,65,35,65],
         ability1: "Hustle",
@@ -4839,7 +4909,6 @@ var pokeInfo = {
         height: 1.2,
         weight: 75.5,
         dexEntry: "It produces over five gallons of milk a day. The higher the quality of the pastures it lives in, the richer and tastier its milk becomes.",
-        sl: "This pokemon is known to give glasses of milk to its trainer. However, it is unknown where it gets the glass from.",
         type: "Normal",
         stats: [95,80,105,40,70,100],
         ability1: "Thick Fat",
@@ -5251,16 +5320,31 @@ var pokeInfo = {
     forms:[
       {
         sprite: "263.png",
-        name: "",
-        classification: "",
-        height: 0,
-        weight: 0,
-        dexEntry: "",
-        type: "",
-        stats: [],
-        ability1: "",
-        ability2: "",
-        hidden: ""
+        name: "Zigzagoon",
+        classification: "Tiny Racoon Pokemon",
+        galar: true,
+        height: 0.4,
+        weight: 17.5,
+        dexEntry: "It marks its territory by rubbing its bristly fur on trees. This variety of Zigzagoon is friendlier and calmer than the kind native to Galar.",
+        type: "Normal",
+        stats: [38,30,41,30,40,60],
+        ability1: "Pickup",
+        ability2: "Gluttony",
+        hidden: "Quick Feet"
+      },
+      {
+        sprite: "263-g.png",
+        name: "Galarian Zigzagoon",
+        classification: "Tiny Racoon Pokemon",
+        galar: true,
+        height: 0.4,
+        weight: 17.5,
+        dexEntry: "	Its restlessness has it constantly running around. If it sees another Pokémon, it will purposely run into them in order to start a fight.",
+        type: "Dark/ Normal",
+        stats: [38,30,41,30,40,60],
+        ability1: "Pickup",
+        ability2: "Gluttony",
+        hidden: "Quick Feet"
       }
     ]
   },
@@ -5268,16 +5352,31 @@ var pokeInfo = {
     forms:[
       {
         sprite: "264.png",
-        name: "",
-        classification: "",
-        height: 0,
-        weight: 0,
-        dexEntry: "",
-        type: "",
-        stats: [],
-        ability1: "",
-        ability2: "",
-        hidden: ""
+        name: "Linoone",
+        classification: "Rush Pokemon",
+        galar: true,
+        height: 0.5,
+        weight: 32.5,
+        dexEntry: "Its fur is strong and supple. Shaving brushes made with shed Linoone hairs are highly prized.",
+        type: "Normal",
+        stats: [78,70,61,50,61,100],
+        ability1: "Pickup",
+        ability2: "Gluttony",
+        hidden: "Quick Feet"
+      },
+      {
+        sprite: "264-g.png",
+        name: "Galarian Linoone",
+        classification: "Rush Pokemon",
+        galar: true,
+        height: 0.5,
+        weight: 32.5,
+        dexEntry: "It uses its long tongue to taunt opponents. Once the opposition is enraged, this Pokémon hurls itself at the opponent, tackling them forcefully.",
+        type: "Dark/ Normal",
+        stats: [78,70,61,50,61,100],
+        ability1: "Pickup",
+        ability2: "Gluttony",
+        hidden: "Quick Feet"
       }
     ]
   },
@@ -7664,6 +7763,6484 @@ var pokeInfo = {
       }
     ]
   },
+  387:{
+    forms:[
+        {
+            sprite: "387.png",
+            name: "",
+            classification: "",
+            height: 0,
+            weight: 0,
+            dexEntry: "",
+            type: "",
+            stats: [],
+            ability1: "",
+            ability2: "",
+            hidden: "",
+            special: ""
+        }
+    ]
+  },
+  388:{
+    forms:[
+      {
+        sprite: "388.png",
+        name: "",
+        classification: "",
+        height: 0,
+        weight: 0,
+        dexEntry: "",
+        type: "",
+        stats: [],
+        ability1: "",
+        ability2: "",
+        hidden: "",
+        special: ""
+      }
+    ]
+  },
+  389:{
+    forms:[
+      {
+        sprite: "389.png",
+        name: "",
+        classification: "",
+        height: 0,
+        weight: 0,
+        dexEntry: "",
+        type: "",
+        stats: [],
+        ability1: "",
+        ability2: "",
+        hidden: "",
+        special: ""
+      }
+    ]
+  },
+  390:{
+    forms:[
+      {
+        sprite: "390.png",
+        name: "",
+        classification: "",
+        height: 0,
+        weight: 0,
+        dexEntry: "",
+        type: "",
+        stats: [],
+        ability1: "",
+        ability2: "",
+        hidden: "",
+        special: ""
+      }
+    ]
+  },
+  391:{
+    forms:[
+      {
+        sprite: "391.png",
+        name: "",
+        classification: "",
+        height: 0,
+        weight: 0,
+        dexEntry: "",
+        type: "",
+        stats: [],
+        ability1: "",
+        ability2: "",
+        hidden: "",
+        special: ""
+      }
+    ]
+  },
+  392:{
+    forms:[
+      {
+        sprite: "392.png",
+        name: "",
+        classification: "",
+        height: 0,
+        weight: 0,
+        dexEntry: "",
+        type: "",
+        stats: [],
+        ability1: "",
+        ability2: "",
+        hidden: "",
+        special: ""
+      }
+    ]
+  },
+  393:{
+    forms:[
+      {
+        sprite: "393.png",
+        name: "",
+        classification: "",
+        height: 0,
+        weight: 0,
+        dexEntry: "",
+        type: "",
+        stats: [],
+        ability1: "",
+        ability2: "",
+        hidden: "",
+        special: ""
+      }
+    ]
+  },
+  394:{
+    forms:[
+      {
+        sprite: "394.png",
+        name: "",
+        classification: "",
+        height: 0,
+        weight: 0,
+        dexEntry: "",
+        type: "",
+        stats: [],
+        ability1: "",
+        ability2: "",
+        hidden: "",
+        special: ""
+      }
+    ]
+  },
+  395:{
+    forms:[
+      {
+        sprite: "395.png",
+        name: "",
+        classification: "",
+        height: 0,
+        weight: 0,
+        dexEntry: "",
+        type: "",
+        stats: [],
+        ability1: "",
+        ability2: "",
+        hidden: "",
+        special: ""
+      }
+    ]
+  },
+  396:{
+    forms:[
+      {
+        sprite: "396.png",
+        name: "",
+        classification: "",
+        height: 0,
+        weight: 0,
+        dexEntry: "",
+        type: "",
+        stats: [],
+        ability1: "",
+        ability2: "",
+        hidden: "",
+        special: ""
+      }
+    ]
+  },
+  397:{
+    forms:[
+      {
+        sprite: "397.png",
+        name: "",
+        classification: "",
+        height: 0,
+        weight: 0,
+        dexEntry: "",
+        type: "",
+        stats: [],
+        ability1: "",
+        ability2: "",
+        hidden: "",
+        special: ""
+      }
+    ]
+  },
+  398:{
+    forms:[
+      {
+        sprite: "398.png",
+        name: "",
+        classification: "",
+        height: 0,
+        weight: 0,
+        dexEntry: "",
+        type: "",
+        stats: [],
+        ability1: "",
+        ability2: "",
+        hidden: "",
+        special: ""
+      }
+    ]
+  },
+  399:{
+      forms:[
+          {
+              sprite: "399.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  400:{
+      forms:[
+          {
+              sprite: "400.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  401:{
+      forms:[
+          {
+              sprite: "401.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  402:{
+      forms:[
+          {
+              sprite: "402.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  403:{
+      forms:[
+          {
+              sprite: "403.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  404:{
+      forms:[
+          {
+              sprite: "404.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  405:{
+      forms:[
+          {
+              sprite: "405.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  406:{
+      forms:[
+          {
+              sprite: "406.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  407:{
+      forms:[
+          {
+              sprite: "407.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  408:{
+      forms:[
+          {
+              sprite: "408.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  409:{
+      forms:[
+          {
+              sprite: "409.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  410:{
+      forms:[
+          {
+              sprite: "410.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  411:{
+      forms:[
+          {
+              sprite: "411.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  412:{
+      forms:[
+          {
+              sprite: "412.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  413:{
+      forms:[
+          {
+              sprite: "413.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  414:{
+      forms:[
+          {
+              sprite: "414.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  415:{
+      forms:[
+          {
+              sprite: "415.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  416:{
+      forms:[
+          {
+              sprite: "416.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  417:{
+      forms:[
+          {
+              sprite: "417.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  418:{
+      forms:[
+          {
+              sprite: "418.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  419:{
+      forms:[
+          {
+              sprite: "419.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  420:{
+      forms:[
+          {
+              sprite: "420.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  421:{
+      forms:[
+          {
+              sprite: "421.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  422:{
+      forms:[
+          {
+              sprite: "422.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  423:{
+      forms:[
+          {
+              sprite: "423.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  424:{
+      forms:[
+          {
+              sprite: "424.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  425:{
+      forms:[
+          {
+              sprite: "425.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  426:{
+      forms:[
+          {
+              sprite: "426.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  427:{
+      forms:[
+          {
+              sprite: "427.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  428:{
+      forms:[
+          {
+              sprite: "428.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  429:{
+      forms:[
+          {
+              sprite: "429.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  430:{
+      forms:[
+          {
+              sprite: "430.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  431:{
+      forms:[
+          {
+              sprite: "431.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  432:{
+      forms:[
+          {
+              sprite: "432.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  433:{
+      forms:[
+          {
+              sprite: "433.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  434:{
+      forms:[
+          {
+              sprite: "434.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  435:{
+      forms:[
+          {
+              sprite: "435.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  436:{
+      forms:[
+          {
+              sprite: "436.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  437:{
+      forms:[
+          {
+              sprite: "437.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  438:{
+      forms:[
+          {
+              sprite: "438.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  439:{
+      forms:[
+          {
+              sprite: "439.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  440:{
+      forms:[
+          {
+              sprite: "440.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  441:{
+      forms:[
+          {
+              sprite: "441.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  442:{
+      forms:[
+          {
+              sprite: "442.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  443:{
+      forms:[
+          {
+              sprite: "443.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  444:{
+      forms:[
+          {
+              sprite: "444.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  445:{
+      forms:[
+          {
+              sprite: "445.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  446:{
+      forms:[
+          {
+              sprite: "446.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  447:{
+      forms:[
+          {
+              sprite: "447.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  448:{
+      forms:[
+          {
+              sprite: "448.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  449:{
+      forms:[
+          {
+              sprite: "449.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  450:{
+      forms:[
+          {
+              sprite: "450.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  451:{
+      forms:[
+          {
+              sprite: "451.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  452:{
+      forms:[
+          {
+              sprite: "452.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  453:{
+      forms:[
+          {
+              sprite: "453.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  454:{
+      forms:[
+          {
+              sprite: "454.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  455:{
+      forms:[
+          {
+              sprite: "455.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  456:{
+      forms:[
+          {
+              sprite: "456.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  457:{
+      forms:[
+          {
+              sprite: "457.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  458:{
+      forms:[
+          {
+              sprite: "458.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  459:{
+      forms:[
+          {
+              sprite: "459.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  460:{
+      forms:[
+          {
+              sprite: "460.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  461:{
+      forms:[
+          {
+              sprite: "461.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  462:{
+      forms:[
+          {
+              sprite: "462.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  463:{
+      forms:[
+          {
+              sprite: "463.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  464:{
+      forms:[
+          {
+              sprite: "464.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  465:{
+      forms:[
+          {
+              sprite: "465.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  466:{
+      forms:[
+          {
+              sprite: "466.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  467:{
+      forms:[
+          {
+              sprite: "467.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  468:{
+      forms:[
+          {
+              sprite: "468.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  469:{
+      forms:[
+          {
+              sprite: "469.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  470:{
+      forms:[
+          {
+              sprite: "470.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  471:{
+      forms:[
+          {
+              sprite: "471.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  472:{
+      forms:[
+          {
+              sprite: "472.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  473:{
+      forms:[
+          {
+              sprite: "473.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  474:{
+      forms:[
+          {
+              sprite: "474.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  475:{
+      forms:[
+          {
+              sprite: "475.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  476:{
+      forms:[
+          {
+              sprite: "476.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  477:{
+      forms:[
+          {
+              sprite: "477.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  478:{
+      forms:[
+          {
+              sprite: "478.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  479:{
+      forms:[
+          {
+              sprite: "479.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  480:{
+      forms:[
+          {
+              sprite: "480.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  481:{
+      forms:[
+          {
+              sprite: "481.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  482:{
+      forms:[
+          {
+              sprite: "482.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  483:{
+      forms:[
+          {
+              sprite: "483.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  484:{
+      forms:[
+          {
+              sprite: "484.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  485:{
+      forms:[
+          {
+              sprite: "485.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  486:{
+      forms:[
+          {
+              sprite: "486.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  487:{
+      forms:[
+          {
+              sprite: "487.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  488:{
+      forms:[
+          {
+              sprite: "488.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  489:{
+      forms:[
+          {
+              sprite: "489.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  490:{
+      forms:[
+          {
+              sprite: "490.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  491:{
+      forms:[
+          {
+              sprite: "491.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  492:{
+      forms:[
+          {
+              sprite: "492.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  493:{
+      forms:[
+          {
+              sprite: "493.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  494:{
+      forms:[
+          {
+              sprite: "494.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  495:{
+      forms:[
+          {
+              sprite: "495.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  496:{
+      forms:[
+          {
+              sprite: "496.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  497:{
+      forms:[
+          {
+              sprite: "497.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  498:{
+      forms:[
+          {
+              sprite: "498.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  499:{
+      forms:[
+          {
+              sprite: "499.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  500:{
+      forms:[
+          {
+              sprite: "500.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  501:{
+      forms:[
+          {
+              sprite: "501.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  502:{
+      forms:[
+          {
+              sprite: "502.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  503:{
+      forms:[
+          {
+              sprite: "503.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  504:{
+      forms:[
+          {
+              sprite: "504.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  505:{
+      forms:[
+          {
+              sprite: "505.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  506:{
+      forms:[
+          {
+              sprite: "506.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  507:{
+      forms:[
+          {
+              sprite: "507.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  508:{
+      forms:[
+          {
+              sprite: "508.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  509:{
+      forms:[
+          {
+              sprite: "509.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  510:{
+      forms:[
+          {
+              sprite: "510.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  511:{
+      forms:[
+          {
+              sprite: "511.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  512:{
+      forms:[
+          {
+              sprite: "512.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  513:{
+      forms:[
+          {
+              sprite: "513.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  514:{
+      forms:[
+          {
+              sprite: "514.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  515:{
+      forms:[
+          {
+              sprite: "515.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  516:{
+      forms:[
+          {
+              sprite: "516.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  517:{
+      forms:[
+          {
+              sprite: "517.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  518:{
+      forms:[
+          {
+              sprite: "518.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  519:{
+      forms:[
+          {
+              sprite: "519.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  520:{
+      forms:[
+          {
+              sprite: "520.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  521:{
+      forms:[
+          {
+              sprite: "521.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  522:{
+      forms:[
+          {
+              sprite: "522.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  523:{
+      forms:[
+          {
+              sprite: "523.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  524:{
+      forms:[
+          {
+              sprite: "524.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  525:{
+      forms:[
+          {
+              sprite: "525.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  526:{
+      forms:[
+          {
+              sprite: "526.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  527:{
+      forms:[
+          {
+              sprite: "527.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  528:{
+      forms:[
+          {
+              sprite: "528.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  529:{
+      forms:[
+          {
+              sprite: "529.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  530:{
+      forms:[
+          {
+              sprite: "530.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  531:{
+      forms:[
+          {
+              sprite: "531.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  532:{
+      forms:[
+          {
+              sprite: "532.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  533:{
+      forms:[
+          {
+              sprite: "533.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  534:{
+      forms:[
+          {
+              sprite: "534.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  535:{
+      forms:[
+          {
+              sprite: "535.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  536:{
+      forms:[
+          {
+              sprite: "536.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  537:{
+      forms:[
+          {
+              sprite: "537.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  538:{
+      forms:[
+          {
+              sprite: "538.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  539:{
+      forms:[
+          {
+              sprite: "539.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  540:{
+      forms:[
+          {
+              sprite: "540.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  541:{
+      forms:[
+          {
+              sprite: "541.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  542:{
+      forms:[
+          {
+              sprite: "542.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  543:{
+      forms:[
+          {
+              sprite: "543.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  544:{
+      forms:[
+          {
+              sprite: "544.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  545:{
+      forms:[
+          {
+              sprite: "545.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  546:{
+      forms:[
+          {
+              sprite: "546.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  547:{
+      forms:[
+          {
+              sprite: "547.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  548:{
+      forms:[
+          {
+              sprite: "548.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  549:{
+      forms:[
+          {
+              sprite: "549.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  550:{
+      forms:[
+          {
+              sprite: "550.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  551:{
+      forms:[
+          {
+              sprite: "551.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  552:{
+      forms:[
+          {
+              sprite: "552.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  553:{
+      forms:[
+          {
+              sprite: "553.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  554:{
+      forms:[
+          {
+              sprite: "554.png",
+              name: "Darumaka",
+              classification: "Zen Charm Pokemon",
+              galar: true,
+              height: 0.6,
+              weight: 37.5,
+              dexEntry: "It derives its power from fire burning inside its body. If the fire dwindles, this Pokémon will immediately fall asleep.",
+              type: "Fire",
+              stats: [70,90,45,15,45,50],
+              ability1: "Hustle",
+              hidden: "Inner Focus"
+          },
+          {
+              sprite: "554-g.png",
+              name: "Galarian Darumaka",
+              classification: "Zen Charm Pokemon",
+              galar: true,
+              height: 0.7,
+              weight: 40,
+              dexEntry: "It lived in snowy areas for so long that its fire sac cooled off and atrophied. It now has an organ that generates cold instead.",
+              type: "Ice",
+              stats: [70,90,45,15,45,50],
+              ability1: "Hustle",
+              hidden: "Inner Focus"
+          }
+      ]
+  },
+  555:{
+      forms:[
+          {
+              sprite: "555.png",
+              name: "Darmanitan",
+              classification: "Blazing Pokemon",
+              galar: true,
+              height: 1.3,
+              weight: 92.9,
+              dexEntry: "The thick arms of this hot-blooded Pokémon can deliver punches capable of obliterating a dump truck.",
+              type: "Fire",
+              stats: [105,140,55,30,55,95],
+              ability1: "Sheer Force",
+              hidden: "Zen Mode"
+          },
+          {
+              sprite: "555-z.png",
+              name: "Darmanitan",
+              classification: "Blazing Pokemon",
+              galar: true,
+              height: 1.3,
+              weight: 92.9,
+              dexEntry: "Through meditation, it calms its raging spirit and hones its psychic powers.",
+              type: "Fire/ Psychic",
+              stats: [105,30,105,140,105,55],
+              hidden: "Zen Mode"
+          },
+          {
+              sprite: "555-g.png",
+              name: "Galar Darmanitan",
+              classification: "Zen Charm Pokemon",
+              galar: true,
+              height: 1.7,
+              weight: 120,
+              dexEntry: "On days when blizzards blow through, it comes down to where people live. It stashes food in the snowball on its head, taking it home for later.",
+              type: "Ice",
+              stats: [105,140,55,30,55,95],
+              ability1: "Gorilla Tactics",
+              hidden: "Zen Mode"
+          },
+          {
+              sprite: "555-gz.png",
+              name: "Galar Darmanitan",
+              classification: "Zen Charm Pokemon",
+              galar: true,
+              height: 1.7,
+              weight: 120,
+              dexEntry: "Anger has reignited its atrophied flame sac. This Pokémon spews fire everywhere as it rampages indiscriminately.",
+              type: "Ice/ Fire",
+              stats: [105,160,55,30,55,135],
+              hidden: "Zen Mode"
+          }
+      ]
+  },
+  556:{
+      forms:[
+          {
+              sprite: "556.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  557:{
+      forms:[
+          {
+              sprite: "557.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  558:{
+      forms:[
+          {
+              sprite: "558.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  559:{
+      forms:[
+          {
+              sprite: "559.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  560:{
+      forms:[
+          {
+              sprite: "560.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  561:{
+      forms:[
+          {
+              sprite: "561.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  562:{
+      forms:[
+          {
+              sprite: "562.png",
+              name: "Yamask",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  563:{
+      forms:[
+          {
+              sprite: "563.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  564:{
+      forms:[
+          {
+              sprite: "564.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  565:{
+      forms:[
+          {
+              sprite: "565.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  566:{
+      forms:[
+          {
+              sprite: "566.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  567:{
+      forms:[
+          {
+              sprite: "567.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  568:{
+      forms:[
+          {
+              sprite: "568.png",
+              name: "Trubbish",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  569:{
+      forms:[
+          {
+              sprite: "569.png",
+              name: "Garbodor",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  570:{
+      forms:[
+          {
+              sprite: "570.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  571:{
+      forms:[
+          {
+              sprite: "571.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  572:{
+      forms:[
+          {
+              sprite: "572.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  573:{
+      forms:[
+          {
+              sprite: "573.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  574:{
+      forms:[
+          {
+              sprite: "574.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  575:{
+      forms:[
+          {
+              sprite: "575.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  576:{
+      forms:[
+          {
+              sprite: "576.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  577:{
+      forms:[
+          {
+              sprite: "577.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  578:{
+      forms:[
+          {
+              sprite: "578.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  579:{
+      forms:[
+          {
+              sprite: "579.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  580:{
+      forms:[
+          {
+              sprite: "580.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  581:{
+      forms:[
+          {
+              sprite: "581.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  582:{
+      forms:[
+          {
+              sprite: "582.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  583:{
+      forms:[
+          {
+              sprite: "583.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  584:{
+      forms:[
+          {
+              sprite: "584.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  585:{
+      forms:[
+          {
+              sprite: "585.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  586:{
+      forms:[
+          {
+              sprite: "586.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  587:{
+      forms:[
+          {
+              sprite: "587.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  588:{
+      forms:[
+          {
+              sprite: "588.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  589:{
+      forms:[
+          {
+              sprite: "589.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  590:{
+      forms:[
+          {
+              sprite: "590.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  591:{
+      forms:[
+          {
+              sprite: "591.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  592:{
+      forms:[
+          {
+              sprite: "592.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  593:{
+      forms:[
+          {
+              sprite: "593.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  594:{
+      forms:[
+          {
+              sprite: "594.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  595:{
+      forms:[
+          {
+              sprite: "595.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  596:{
+      forms:[
+          {
+              sprite: "596.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  597:{
+      forms:[
+          {
+              sprite: "597.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  598:{
+      forms:[
+          {
+              sprite: "598.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  599:{
+      forms:[
+          {
+              sprite: "599.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  600:{
+      forms:[
+          {
+              sprite: "600.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  601:{
+      forms:[
+          {
+              sprite: "601.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  602:{
+      forms:[
+          {
+              sprite: "602.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  603:{
+      forms:[
+          {
+              sprite: "603.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  604:{
+      forms:[
+          {
+              sprite: "604.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  605:{
+      forms:[
+          {
+              sprite: "605.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  606:{
+      forms:[
+          {
+              sprite: "606.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  607:{
+      forms:[
+          {
+              sprite: "607.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  608:{
+      forms:[
+          {
+              sprite: "608.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  609:{
+      forms:[
+          {
+              sprite: "609.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  610:{
+      forms:[
+          {
+              sprite: "610.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  611:{
+      forms:[
+          {
+              sprite: "611.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  612:{
+      forms:[
+          {
+              sprite: "612.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  613:{
+      forms:[
+          {
+              sprite: "613.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  614:{
+      forms:[
+          {
+              sprite: "614.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  615:{
+      forms:[
+          {
+              sprite: "615.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  616:{
+      forms:[
+          {
+              sprite: "616.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  617:{
+      forms:[
+          {
+              sprite: "617.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  618:{
+      forms:[
+          {
+              sprite: "618.png",
+              name: "Stunfisk",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  619:{
+      forms:[
+          {
+              sprite: "619.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  620:{
+      forms:[
+          {
+              sprite: "620.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  621:{
+      forms:[
+          {
+              sprite: "621.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  622:{
+      forms:[
+          {
+              sprite: "622.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  623:{
+      forms:[
+          {
+              sprite: "623.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  624:{
+      forms:[
+          {
+              sprite: "624.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  625:{
+      forms:[
+          {
+              sprite: "625.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  626:{
+      forms:[
+          {
+              sprite: "626.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  627:{
+      forms:[
+          {
+              sprite: "627.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  628:{
+      forms:[
+          {
+              sprite: "628.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  629:{
+      forms:[
+          {
+              sprite: "629.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  630:{
+      forms:[
+          {
+              sprite: "630.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  631:{
+      forms:[
+          {
+              sprite: "631.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  632:{
+      forms:[
+          {
+              sprite: "632.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  633:{
+      forms:[
+          {
+              sprite: "633.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  634:{
+      forms:[
+          {
+              sprite: "634.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  635:{
+      forms:[
+          {
+              sprite: "635.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  636:{
+      forms:[
+          {
+              sprite: "636.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  637:{
+      forms:[
+          {
+              sprite: "637.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  638:{
+      forms:[
+          {
+              sprite: "638.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  639:{
+      forms:[
+          {
+              sprite: "639.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  640:{
+      forms:[
+          {
+              sprite: "640.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  641:{
+      forms:[
+          {
+              sprite: "641.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  642:{
+      forms:[
+          {
+              sprite: "642.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  643:{
+      forms:[
+          {
+              sprite: "643.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  644:{
+      forms:[
+          {
+              sprite: "644.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  645:{
+      forms:[
+          {
+              sprite: "645.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  646:{
+      forms:[
+          {
+              sprite: "646.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  647:{
+      forms:[
+          {
+              sprite: "647.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  648:{
+      forms:[
+          {
+              sprite: "648.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  649:{
+      forms:[
+          {
+              sprite: "649.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  650:{
+      forms:[
+          {
+              sprite: "650.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  651:{
+      forms:[
+          {
+              sprite: "651.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  652:{
+      forms:[
+          {
+              sprite: "652.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  653:{
+      forms:[
+          {
+              sprite: "653.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  654:{
+      forms:[
+          {
+              sprite: "654.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  655:{
+      forms:[
+          {
+              sprite: "655.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  656:{
+      forms:[
+          {
+              sprite: "656.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  657:{
+      forms:[
+          {
+              sprite: "657.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  658:{
+      forms:[
+          {
+              sprite: "658.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  659:{
+      forms:[
+          {
+              sprite: "659.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  660:{
+      forms:[
+          {
+              sprite: "660.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  661:{
+      forms:[
+          {
+              sprite: "661.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  662:{
+      forms:[
+          {
+              sprite: "662.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  663:{
+      forms:[
+          {
+              sprite: "663.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  664:{
+      forms:[
+          {
+              sprite: "664.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  665:{
+      forms:[
+          {
+              sprite: "665.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  666:{
+      forms:[
+          {
+              sprite: "666.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  667:{
+      forms:[
+          {
+              sprite: "667.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  668:{
+      forms:[
+          {
+              sprite: "668.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  669:{
+      forms:[
+          {
+              sprite: "669.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  670:{
+      forms:[
+          {
+              sprite: "670.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  671:{
+      forms:[
+          {
+              sprite: "671.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  672:{
+      forms:[
+          {
+              sprite: "672.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  673:{
+      forms:[
+          {
+              sprite: "673.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  674:{
+      forms:[
+          {
+              sprite: "674.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  675:{
+      forms:[
+          {
+              sprite: "675.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  676:{
+      forms:[
+          {
+              sprite: "676.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  677:{
+      forms:[
+          {
+              sprite: "677.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  678:{
+      forms:[
+          {
+              sprite: "678.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  679:{
+      forms:[
+          {
+              sprite: "679.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  680:{
+      forms:[
+          {
+              sprite: "680.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  681:{
+      forms:[
+          {
+              sprite: "681.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  682:{
+      forms:[
+          {
+              sprite: "682.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  683:{
+      forms:[
+          {
+              sprite: "683.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  684:{
+      forms:[
+          {
+              sprite: "684.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  685:{
+      forms:[
+          {
+              sprite: "685.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  686:{
+      forms:[
+          {
+              sprite: "686.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  687:{
+      forms:[
+          {
+              sprite: "687.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  688:{
+      forms:[
+          {
+              sprite: "688.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  689:{
+      forms:[
+          {
+              sprite: "689.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  690:{
+      forms:[
+          {
+              sprite: "690.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  691:{
+      forms:[
+          {
+              sprite: "691.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  692:{
+      forms:[
+          {
+              sprite: "692.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  693:{
+      forms:[
+          {
+              sprite: "693.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  694:{
+      forms:[
+          {
+              sprite: "694.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  695:{
+      forms:[
+          {
+              sprite: "695.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  696:{
+      forms:[
+          {
+              sprite: "696.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  697:{
+      forms:[
+          {
+              sprite: "697.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  698:{
+      forms:[
+          {
+              sprite: "698.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  699:{
+      forms:[
+          {
+              sprite: "699.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  700:{
+      forms:[
+          {
+              sprite: "700.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  701:{
+      forms:[
+          {
+              sprite: "701.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  702:{
+      forms:[
+          {
+              sprite: "702.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  703:{
+      forms:[
+          {
+              sprite: "703.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  704:{
+      forms:[
+          {
+              sprite: "704.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  705:{
+      forms:[
+          {
+              sprite: "705.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  706:{
+      forms:[
+          {
+              sprite: "706.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  707:{
+      forms:[
+          {
+              sprite: "707.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  708:{
+      forms:[
+          {
+              sprite: "708.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  709:{
+      forms:[
+          {
+              sprite: "709.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  710:{
+      forms:[
+          {
+              sprite: "710.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  711:{
+      forms:[
+          {
+              sprite: "711.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  712:{
+      forms:[
+          {
+              sprite: "712.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  713:{
+      forms:[
+          {
+              sprite: "713.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  714:{
+      forms:[
+          {
+              sprite: "714.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  715:{
+      forms:[
+          {
+              sprite: "715.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  716:{
+      forms:[
+          {
+              sprite: "716.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  717:{
+      forms:[
+          {
+              sprite: "717.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  718:{
+      forms:[
+          {
+              sprite: "718.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  719:{
+      forms:[
+          {
+              sprite: "719.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  720:{
+      forms:[
+          {
+              sprite: "720.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  721:{
+      forms:[
+          {
+              sprite: "721.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  722:{
+      forms:[
+          {
+              sprite: "722.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  723:{
+      forms:[
+          {
+              sprite: "723.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  724:{
+      forms:[
+          {
+              sprite: "724.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  725:{
+      forms:[
+          {
+              sprite: "725.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  726:{
+      forms:[
+          {
+              sprite: "726.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  727:{
+      forms:[
+          {
+              sprite: "727.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  728:{
+      forms:[
+          {
+              sprite: "728.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  729:{
+      forms:[
+          {
+              sprite: "729.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  730:{
+      forms:[
+          {
+              sprite: "730.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  731:{
+      forms:[
+          {
+              sprite: "731.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  732:{
+      forms:[
+          {
+              sprite: "732.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  733:{
+      forms:[
+          {
+              sprite: "733.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  734:{
+      forms:[
+          {
+              sprite: "734.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  735:{
+      forms:[
+          {
+              sprite: "735.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  736:{
+      forms:[
+          {
+              sprite: "736.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  737:{
+      forms:[
+          {
+              sprite: "737.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  738:{
+      forms:[
+          {
+              sprite: "738.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  739:{
+      forms:[
+          {
+              sprite: "739.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  740:{
+      forms:[
+          {
+              sprite: "740.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  741:{
+      forms:[
+          {
+              sprite: "741.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  742:{
+      forms:[
+          {
+              sprite: "742.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  743:{
+      forms:[
+          {
+              sprite: "743.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
   744:{
     forms:[
       {
@@ -7673,7 +14250,6 @@ var pokeInfo = {
         height: 0.5,
         weight: 9.2,
         dexEntry: "As they develop, their disposition grows more violent and aggressive. Many Trainers find them too much to handle and abandon them.",
-        sl: "It's a puppy, it's cute. I want one .-.",
         type: "Rock",
         stats: [45,65,40,30,40,60],
         ability1: "Keen Eye",
@@ -7682,6 +14258,1163 @@ var pokeInfo = {
         special: "Own Tempo"
       }
     ]
+  },
+  745:{
+    forms:[
+      {
+        sprite: "745.png",
+        name: "Lycanroc",
+        classification: "Wolf Pokemon",
+        height: 0.8,
+        weight: 25,
+        dexEntry: "The sharp rocks in its mane can cut like knives. Lycanroc wears its prey down by degrees before finishing them off.",
+        type: "Rock",
+        stats: [75,115,65,55,65,112],
+        ability1: "Keen Eye",
+        ability2: "Sand Rush",
+        hidden: "Steadfast"
+      },
+      {
+        sprite: "745-m.png",
+        name: "Lycanroc",
+        classification: "Wolf Pokemon",
+        height: 1.1,
+        weight: 25,
+        dexEntry: "It has no problem ignoring orders it doesn’t like. It doesn’t seem to mind getting hurt at all—as long as it can finish off its opponent.",
+        type: "Rock",
+        stats: [85,115,75,55,75,82],
+        ability1: "Keen Eye",
+        ability2: "Vital Spirit",
+        hidden: "No Guard"
+      },
+      {
+        sprite: "745-d.png",
+        name: "Lycanroc",
+        classification: "Wolf Pokemon",
+        height: 0.8,
+        weight: 25,
+        dexEntry: "Bathed in the setting sun of evening, Lycanroc has undergone a special kind of evolution. An intense fighting spirit underlies its calmness.",
+        type: "Rock",
+        stats: [75,117,65,55,65,110],
+        special: "Tough Claws"
+      }
+    ]
+  },
+  746:{
+      forms:[
+          {
+              sprite: "746.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  747:{
+      forms:[
+          {
+              sprite: "747.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  748:{
+      forms:[
+          {
+              sprite: "748.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  749:{
+      forms:[
+          {
+              sprite: "749.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  750:{
+      forms:[
+          {
+              sprite: "750.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  751:{
+      forms:[
+          {
+              sprite: "751.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  752:{
+      forms:[
+          {
+              sprite: "752.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  753:{
+      forms:[
+          {
+              sprite: "753.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  754:{
+      forms:[
+          {
+              sprite: "754.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  755:{
+      forms:[
+          {
+              sprite: "755.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  756:{
+      forms:[
+          {
+              sprite: "756.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  757:{
+      forms:[
+          {
+              sprite: "757.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  758:{
+      forms:[
+          {
+              sprite: "758.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  759:{
+      forms:[
+          {
+              sprite: "759.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  760:{
+      forms:[
+          {
+              sprite: "760.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  761:{
+      forms:[
+          {
+              sprite: "761.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  762:{
+      forms:[
+          {
+              sprite: "762.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  763:{
+      forms:[
+          {
+              sprite: "763.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  764:{
+      forms:[
+          {
+              sprite: "764.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  765:{
+      forms:[
+          {
+              sprite: "765.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  766:{
+      forms:[
+          {
+              sprite: "766.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  767:{
+      forms:[
+          {
+              sprite: "767.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  768:{
+      forms:[
+          {
+              sprite: "768.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  769:{
+      forms:[
+          {
+              sprite: "769.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  770:{
+      forms:[
+          {
+              sprite: "770.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  771:{
+      forms:[
+          {
+              sprite: "771.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  772:{
+      forms:[
+          {
+              sprite: "772.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  773:{
+      forms:[
+          {
+              sprite: "773.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  774:{
+      forms:[
+          {
+              sprite: "774.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  775:{
+      forms:[
+          {
+              sprite: "775.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  776:{
+      forms:[
+          {
+              sprite: "776.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  777:{
+      forms:[
+          {
+              sprite: "777.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  778:{
+      forms:[
+          {
+              sprite: "778.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  779:{
+      forms:[
+          {
+              sprite: "779.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  780:{
+      forms:[
+          {
+              sprite: "780.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  781:{
+      forms:[
+          {
+              sprite: "781.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  782:{
+      forms:[
+          {
+              sprite: "782.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  783:{
+      forms:[
+          {
+              sprite: "783.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  784:{
+      forms:[
+          {
+              sprite: "784.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  785:{
+      forms:[
+          {
+              sprite: "785.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  786:{
+      forms:[
+          {
+              sprite: "786.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  787:{
+      forms:[
+          {
+              sprite: "787.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  788:{
+      forms:[
+          {
+              sprite: "788.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  789:{
+      forms:[
+          {
+              sprite: "789.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  790:{
+      forms:[
+          {
+              sprite: "790.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  791:{
+      forms:[
+          {
+              sprite: "791.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  792:{
+      forms:[
+          {
+              sprite: "792.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  793:{
+      forms:[
+          {
+              sprite: "793.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  794:{
+      forms:[
+          {
+              sprite: "794.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  795:{
+      forms:[
+          {
+              sprite: "795.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  796:{
+      forms:[
+          {
+              sprite: "796.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  797:{
+      forms:[
+          {
+              sprite: "797.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  798:{
+      forms:[
+          {
+              sprite: "798.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  799:{
+      forms:[
+          {
+              sprite: "799.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  800:{
+      forms:[
+          {
+              sprite: "800.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  801:{
+      forms:[
+          {
+              sprite: "801.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  802:{
+      forms:[
+          {
+              sprite: "802.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  803:{
+      forms:[
+          {
+              sprite: "803.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  804:{
+      forms:[
+          {
+              sprite: "804.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  805:{
+      forms:[
+          {
+              sprite: "805.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  806:{
+      forms:[
+          {
+              sprite: "806.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  807:{
+      forms:[
+          {
+              sprite: "807.png",
+              name: "",
+              classification: "",
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
   },
   808:{
     forms:[
@@ -7716,5 +15449,1541 @@ var pokeInfo = {
         ability1: "Iron Fist"
       }
     ]
-  }
+  },
+  810:{
+    forms:[
+      {
+        sprite: "810.png",
+        name: "",
+        classification: "",
+        galar: true,
+        height: 0,
+        weight: 0,
+        dexEntry: "",
+        type: "",
+        stats: [],
+        ability1: "",
+        ability2: "",
+        hidden: "",
+        special: ""
+      }
+    ]
+  },
+  811:{
+      forms:[
+          {
+              sprite: "811.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  812:{
+      forms:[
+          {
+              sprite: "812.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  813:{
+      forms:[
+          {
+              sprite: "813.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  814:{
+      forms:[
+          {
+              sprite: "814.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  815:{
+      forms:[
+          {
+              sprite: "815.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  816:{
+      forms:[
+          {
+              sprite: "816.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  817:{
+      forms:[
+          {
+              sprite: "817.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  818:{
+      forms:[
+          {
+              sprite: "818.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  819:{
+      forms:[
+          {
+              sprite: "819.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  820:{
+      forms:[
+          {
+              sprite: "820.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  821:{
+      forms:[
+          {
+              sprite: "821.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  822:{
+      forms:[
+          {
+              sprite: "822.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  823:{
+      forms:[
+          {
+              sprite: "823.png",
+              name: "Corviknight",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  824:{
+      forms:[
+          {
+              sprite: "824.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  825:{
+      forms:[
+          {
+              sprite: "825.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  826:{
+      forms:[
+          {
+              sprite: "826.png",
+              name: "Obeetle",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  827:{
+      forms:[
+          {
+              sprite: "827.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  828:{
+      forms:[
+          {
+              sprite: "828.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  829:{
+      forms:[
+          {
+              sprite: "829.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  830:{
+      forms:[
+          {
+              sprite: "830.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  831:{
+      forms:[
+          {
+              sprite: "831.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  832:{
+      forms:[
+          {
+              sprite: "832.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  833:{
+      forms:[
+          {
+              sprite: "833.png",
+              name: "Chewtle",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  834:{
+      forms:[
+          {
+              sprite: "834.png",
+              name: "Drednaw",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  835:{
+      forms:[
+          {
+              sprite: "835.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  836:{
+      forms:[
+          {
+              sprite: "836.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  837:{
+      forms:[
+          {
+              sprite: "837.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  838:{
+      forms:[
+          {
+              sprite: "838.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  839:{
+      forms:[
+          {
+              sprite: "839.png",
+              name: "Coalossal",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  840:{
+      forms:[
+          {
+              sprite: "840.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  841:{
+      forms:[
+          {
+              sprite: "841.png",
+              name: "Flapple",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  842:{
+      forms:[
+          {
+              sprite: "842.png",
+              name: "Appletun",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  843:{
+      forms:[
+          {
+              sprite: "843.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  844:{
+      forms:[
+          {
+              sprite: "844.png",
+              name: "Sandaconda",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  845:{
+      forms:[
+          {
+              sprite: "845.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  846:{
+      forms:[
+          {
+              sprite: "846.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  847:{
+      forms:[
+          {
+              sprite: "847.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  848:{
+      forms:[
+          {
+              sprite: "848.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  849:{
+      forms:[
+          {
+              sprite: "849.png",
+              name: "Toxtricity",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  850:{
+      forms:[
+          {
+              sprite: "850.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  851:{
+      forms:[
+          {
+              sprite: "851.png",
+              name: "Centiskorch",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  852:{
+      forms:[
+          {
+              sprite: "852.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  853:{
+      forms:[
+          {
+              sprite: "853.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  854:{
+      forms:[
+          {
+              sprite: "854.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  855:{
+      forms:[
+          {
+              sprite: "855.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  856:{
+      forms:[
+          {
+              sprite: "856.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  857:{
+      forms:[
+          {
+              sprite: "857.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  858:{
+      forms:[
+          {
+              sprite: "858.png",
+              name: "Hatterene",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  859:{
+      forms:[
+          {
+              sprite: "859.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  860:{
+      forms:[
+          {
+              sprite: "860.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  861:{
+      forms:[
+          {
+              sprite: "861.png",
+              name: "Grimmsnarl",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  862:{
+      forms:[
+          {
+              sprite: "862.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  863:{
+      forms:[
+          {
+              sprite: "863.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  864:{
+      forms:[
+          {
+              sprite: "864.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  865:{
+      forms:[
+          {
+              sprite: "865.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  866:{
+      forms:[
+          {
+              sprite: "866.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  867:{
+      forms:[
+          {
+              sprite: "867.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  868:{
+      forms:[
+          {
+              sprite: "868.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  869:{
+      forms:[
+          {
+              sprite: "869.png",
+              name: "Alcremie",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  870:{
+      forms:[
+          {
+              sprite: "870.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  871:{
+      forms:[
+          {
+              sprite: "871.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  872:{
+      forms:[
+          {
+              sprite: "872.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  873:{
+      forms:[
+          {
+              sprite: "873.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  874:{
+      forms:[
+          {
+              sprite: "874.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  875:{
+      forms:[
+          {
+              sprite: "875.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  876:{
+      forms:[
+          {
+              sprite: "876.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  877:{
+      forms:[
+          {
+              sprite: "877.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  878:{
+      forms:[
+          {
+              sprite: "878.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  879:{
+      forms:[
+          {
+              sprite: "879.png",
+              name: "Copperajah",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  880:{
+      forms:[
+          {
+              sprite: "880.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  881:{
+      forms:[
+          {
+              sprite: "881.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  882:{
+      forms:[
+          {
+              sprite: "882.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  883:{
+      forms:[
+          {
+              sprite: "883.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  884:{
+      forms:[
+          {
+              sprite: "884.png",
+              name: "Duraludon",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  885:{
+      forms:[
+          {
+              sprite: "885.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  886:{
+      forms:[
+          {
+              sprite: "886.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  887:{
+      forms:[
+          {
+              sprite: "887.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  888:{
+      forms:[
+          {
+              sprite: "888.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  889:{
+      forms:[
+          {
+              sprite: "889.png",
+              name: "",
+              classification: "",
+              galar: true,
+              height: 0,
+              weight: 0,
+              dexEntry: "",
+              type: "",
+              stats: [],
+              ability1: "",
+              ability2: "",
+              hidden: "",
+              special: ""
+          }
+      ]
+  },
+  890:{
+    forms:[
+      {
+        sprite: "890.png",
+        name: "Eternatus",
+        classification: "",
+        galar: true,
+        height: 0,
+        weight: 0,
+        dexEntry: "",
+        type: "Poison/ Dragon",
+        stats: [],
+        ability1: "Pressure"
+      }
+    ]
+  },
 }
