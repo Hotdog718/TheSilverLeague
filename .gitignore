@@ -1,3 +1,4 @@
 /node_modules/
 /DamageCalc/
 .gitignore
+.vs/
